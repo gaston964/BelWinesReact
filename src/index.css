@@ -4,12 +4,11 @@
   list-style: none;
   text-decoration: none;
 }
-.itemlistContainer{
+body{
   background-image: url("/images/patternpad.jpg");
-  height: 100vh;
-  color: white;
-  text-align: center;
+  background-repeat: repeat;
 }
+/* -------------NAV-------------- */
 nav{
   font-family: 'Dancing Script', cursive;
   font-size: 1.5rem;
@@ -65,6 +64,26 @@ nav{
   border-radius: 25px;
 }
 .close{display: none;}
+/* -------------Item-------------- */
+.itemContainer{
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* -------------Sobrneos-------------- */
+.image-container {
+  display: flex;
+  color: white;
+}
+
+.image-container img {
+  width: 200px; /* o cualquier otro tamaño */
+  margin-right: 20px; /* o cualquier otro margen */
+}
+
+.image-container > * {
+  flex: 1; /* para que ocupen todo el ancho disponible */
+}
 @media (max-width: 768px){
   .open{
     display: none;

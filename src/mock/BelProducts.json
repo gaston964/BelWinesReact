@@ -1,115 +1,154 @@
 [
     {
         "id": "T1",
-        "nombre": "Atilio Avena Línea Franco ",
+        "nombre": "Atilio Avena",
+        "descripcion": "Atilio Avena Línea Franco ",
         "precio": 1500,
-        "img": "/images/Atilio Avena4.jpg"
+        "img": "/images/Atilio Avena.jpg",
+        "category": "Tintos"
     },
     {
         "id": "T2",
-        "nombre": "Atilio Avena Roble Malbec",
+        "nombre": "Atilio Avena",
+        "descripcion": "Atilio Avena Roble Malbec",
         "precio": 1500,
-        "img": "/images/Atilio Avena2.jpg"
+        "img": "/images/Atilio Avena2.jpg",
+        "category": "Tintos"
     },
     {
         "id": "T3",
-        "nombre": "Atilio Avena- Atilio Malbec",
+        "nombre": "Atilio Avena",
+        "descripcion": "Atilio Avena- Atilio Malbec",
         "precio": 1500,
-        "img": "/images/Atilio Avena3.jpg"
+        "img": "/images/Atilio Avena3.jpg",
+        "category": "Tintos"
     },
     {
         "id": "T4",
-        "nombre": "Bodegas López- López Malbec",
+        "nombre": "López Malbec",
+        "descripcion": "Bodegas López- López Malbec",
         "precio": 1500,
-        "img": "/images/Bodegas Lopez.jpg"
+        "img": "/images/Bodegas Lopez.jpg",
+        "category": "Tintos"
     },
     {
         "id": "T5",
-        "nombre": "Bodegas López Vasco Viejo Edición Vintage Malbec",
+        "nombre": "Vasco Viejo",
+        "descripcion": "Bodegas López Vasco Viejo Edición Vintage Malbec",
         "precio": 1500,
-        "img": "/images/Bodegas Lopez2.jpg"
+        "img": "/images/Bodegas Lopez2.jpg",
+        "category": "Tintos"
     },
     {
         "id": "T6",
-        "nombre": "Bodegas López Vasco Viejo Blend de tintos",
+        "nombre": "Vasco Viejo Blend",
+        "descripcion": "Bodegas López Vasco Viejo Blend de tintos",
         "precio": 1500,
-        "img": "/images/Bodegas Lopez3.jpg"
+        "img": "/images/Bodegas Lopez3.jpg",
+        "category": "Tintos"
     },
     {
         "id": "T7",
-        "nombre": "Bodegas López Vasco Viejo Blend de blancos",
+        "nombre": "Vasco Viejo Blend de blancos",
+        "descripcion": "Bodegas López Vasco Viejo Blend de blancos",
         "precio": 1500,
-        "img": "/images/Bodegas Lopez4.jpg"
+        "img": "/images/Bodegas Lopez4.jpg",
+        "category": "Tintos"
     },
     {
         "id": "T8",
-        "nombre": "Don Bosco Reserva Malbec",
+        "nombre": "Don Bosco",
+        "descripcion": "Don Bosco Reserva Malbec",
         "precio": 1500,
-        "img": "/images/Don Bosco.jpg"
+        "img": "/images/Don Bosco.jpg",
+        "category": "Tintos"
     },
     {
         "id": "T9",
-        "nombre": "Don Bosco Otro Loco Más Malbec",
+        "nombre": "Otro Loco Más",
+        "descripcion": "Don Bosco Otro Loco Más Malbec",
         "precio": 1500,
-        "img": "/images/Don Bosco2.jpg"
+        "img": "/images/Don Bosco2.jpg",
+        "category": "Tintos"
     },
     {
         "id": "T10",
         "nombre": "Melipal Malbec",
+        "descripcion": "Melipal Malbec",
         "precio": 1500,
-        "img": "/images/Melipal Malbec.jpeg"
+        "img": "/images/Melipal Malbec.jpeg",
+        "category": "Tintos"
     },
     {
         "id": "T11",
-        "nombre": "Mosquita Muerta Wines Cordero con piel de Lobo Malbec",
+        "nombre": "Mosquita Muerta Wines",
+        "descripcion": "Mosquita Muerta Wines Cordero con piel de Lobo Malbec",
         "precio": 1500,
-        "img": "/images/Mosquita Muerta.jpg"
+        "img": "/images/Mosquita Muerta.jpg",
+        "category": "Tintos"
     },
     {
         "id": "T12",
-        "nombre": "Richardi Fazio Menegazzo Linea Rimé Blend Alta Gama Malbec Cabernet Sauvignon",
+        "nombre": "Richardi Fazio Menegazzo",
+        "descripcion": "Richardi Fazio Menegazzo Linea Rimé Blend Alta Gama Malbec Cabernet Sauvignon",
         "precio": 1500,
-        "img": "/images/Richardi Fazio3.jpg"
+        "img": "/images/Richardi Fazio3.jpg",
+        "category": "Tintos"
     },
     {
         "id": "T13",
-        "nombre": "Richardi Fazio Menegazzo Línea Rime Malbec Varietal",
+        "nombre": "Richardi Fazio Menegazzo",
+        "descripcion": "Richardi Fazio Menegazzo Línea Rime Malbec Varietal",
         "precio": 1500,
-        "img": "/images/Richardi Fazio4.jpg"
+        "img": "/images/Richardi Fazio4.jpg",
+        "category": "Tintos"
     },
     {
         "id": "B1",
-        "nombre": "Don Bosco Otro Loco Más Ice",
+        "nombre": "Otro Loco Más Ice",
+        "descripcion": "Don Bosco Otro Loco Más Ice",
         "precio": 1500,
-        "img": "/images/Don Bosco Otro Loco Más Ice.jpg"
+        "img": "/images/Don Bosco Otro Loco Más Ice.jpg",
+        "category": "Blancos"
     },
     {
         "id": "B2",
-        "nombre": "Jorge Rubio Finca Gabriel Jóvenes Cosecha Tardía",
+        "nombre": "Cosecha Tardía",
+        "descripcion": "Jorge Rubio Finca Gabriel Jóvenes Cosecha Tardía",
         "precio": 1500,
-        "img": "/images/Jorge Rubio2.jpg"
+        "img": "/images/Jorge Rubio2.jpg",
+        "category": "Blancos"
     },
     {
         "id": "R1",
-        "nombre": "Jorge Rubio- Finca Gabriel Jóvenes Rosé Syrah",
+        "nombre": "Rosé Syrah",
+        "descripcion": "Jorge Rubio- Finca Gabriel Jóvenes Rosé Syrah",
         "precio": 1500,
-        "img": "/images/Jorge Rubio.jpeg"
+        "img": "/images/Jorge Rubio.jpeg",
+        "category": "Rosados"
     },
     {
         "id": "R2",
-        "nombre": "Atilio Avena Shiraz Rose",
+        "nombre": "Shiraz Rosé",
+        "descripcion": "Atilio Avena Shiraz Rosé",
         "precio": 1500,
-        "img": "/images/Atilio Avena.jpg"
+        "img": "/images/Atilio Avena.jpg",
+        "category": "Rosados"
     },
-        {"id": "E1",
-        "nombre": "Richardi Fazio Menegazzo Línea Canai Espumante Moulin Bleu Rosado Dulce",
+    {
+        "id": "E1",
+        "nombre": "Moulin Bleu Rosado Dulce",
+        "descripcion": "Richardi Fazio Menegazzo Línea Canai Espumante Moulin Bleu Rosado Dulce",
         "precio": 1500,
-        "img": "/images/Richardi Fazio.jpg"
+        "img": "/images/Richardi Fazio.jpg",
+        "category": ""
     },
     {
         "id": "E2",
-        "nombre": "Richardi Fazio Menegazzo Línea Canai Espumante Moulin Bleu Extra Dulce",
+        "nombre": "Moulin Bleu Extra Dulce",
+        "descripcion": "Richardi Fazio Menegazzo Línea Canai Espumante Moulin Bleu Extra Dulce",
         "precio": 1500,
-        "img": "/images/Richardi Fazio2.jpg"
+        "img": "/images/Richardi Fazio2.jpg",
+        "category": "Espumantes"
     }
 ]
