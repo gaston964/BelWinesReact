@@ -4,7 +4,12 @@
   list-style: none;
   text-decoration: none;
 }
-
+.itemlistContainer{
+  background-image: url("/images/patternpad.jpg");
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
 nav{
   font-family: 'Dancing Script', cursive;
   font-size: 1.5rem;
@@ -38,7 +43,15 @@ nav{
   justify-content: space-around;
 }
 .navLink>a{
+  text-align: center;
+  width: 100%;
   color: white;
+  transition: all 0.3s ease;
+}
+.navLink>a:hover{
+  padding: 0.3rem;
+  background-color: yellow;
+  color: black;
 }
 .cartWidget{
   display: flex;
