@@ -11,24 +11,16 @@ const Navbar = () => {
             <nav>
                 <div className="open">
                     <div className='logolink'>
-                        <Link>
+                        <Link to={'/'}>
                             <img src="/images/logobel2.png" alt="Logo" />
                             BelWines
                         </Link>
                     </div>
                     <div className="navLink">
-                        <Link>
-                        Promos
-                        </Link>
-                        <Link>
-                        Vinos
-                        </Link>
-                        <Link>
-                            Envios
-                        </Link>
-                        <Link>
-                            Sobre Nosotros
-                        </Link>
+                        <Link>Promos</Link>
+                        <Link to={'/vinos'}>Vinos</Link>
+                        <Link>Envios</Link>
+                        <Link>Sobre Nosotros</Link>
                     </div>
                     <button className="cartWidget"><CartWidget/>8</button>
                 </div>
@@ -38,9 +30,7 @@ const Navbar = () => {
                         <Link>
                         Promos
                         </Link>
-                        <Link>
-                        Vinos
-                        </Link>
+                        <Link to={"/vinos"}>Vinos</Link>
                         <Link>
                             Envios
                         </Link>

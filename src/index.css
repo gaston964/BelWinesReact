@@ -71,13 +71,25 @@ nav{
   flex-wrap: wrap;
 }
 /* -------------Sobrneos-------------- */
+.sobrenosInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1.3rem;
+  min-height: 400px;
+}
+.sobrenosInfo img{
+  height: 100%;
+  width: 100%;
+}
 .image-container {
   display: flex;
   color: white;
+  height: 100vh;
 }
 
 .image-container img {
-  width: 200px; /* o cualquier otro tamaño */
+  width: 400px; /* o cualquier otro tamaño */
   margin-right: 20px; /* o cualquier otro margen */
 }
 
