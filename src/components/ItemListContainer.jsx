@@ -18,7 +18,6 @@ const ItemListContainer = () => {
             <div className='itemContainer'>
                 {items.map(i => <Item key={i.id} {...i}/>)}
             </div>
-
         </div>
     )
 }

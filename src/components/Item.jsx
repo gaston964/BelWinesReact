@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useContext, useState } from 'react'
+import { CartContext } from '../context/CartContext'
 import "./item.css"
 
 const Item = ({ nombre, precio, img, descripcion }) => {
+    const {cart, addToCart} = useContext(CartContext)
+    const [quantity, setquantity] = useState(0)
+    const addHandler = (cantidad) => {
+        addToCart(Item, cantidad)
+        setquantity(cantidad)
+    }
     return (
         <>
             <div className="wrapper">
@@ -16,7 +23,7 @@ const Item = ({ nombre, precio, img, descripcion }) => {
                     </div>
                     <div className="product-price-btn">
                         <p><span>{precio}</span>$</p>
-                        <button type="button">buy now</button>
+                        <button type="button" onClick={addHandler}>buy now</button>
                     </div>
                 </div>
             </div>

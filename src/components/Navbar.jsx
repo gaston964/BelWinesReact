@@ -5,7 +5,6 @@ import CartWidget from './CartWidget';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
     return (
         <>
             <nav>
@@ -20,25 +19,21 @@ const Navbar = () => {
                         <Link>Promos</Link>
                         <Link to={'/vinos'}>Vinos</Link>
                         <Link>Envios</Link>
-                        <Link>Sobre Nosotros</Link>
+                        {/* <Link>Sobre Nosotros</Link> */}
                     </div>
-                    <button className="cartWidget"><CartWidget/>8</button>
+                    <CartWidget/>
                 </div>
                 <div className="close">
                     <button onClick={() => setIsMenuOpen(!isMenuOpen)}><GoGrabber /></button>
                     <div className={isMenuOpen ? 'open' : 'closeMenu'}>
-                        <Link>
-                        Promos
-                        </Link>
+                        <Link>Promos</Link>
                         <Link to={"/vinos"}>Vinos</Link>
-                        <Link>
-                            Envios
-                        </Link>
-                        <Link>
+                        <Link>Envios</Link>
+                        {/* <Link>
                             Sobre Nosotros
-                        </Link>
+                        </Link> */}
                     </div>
-                    <button className="cartWidget"><CartWidget/>8</button>
+                    <CartWidget/>
                 </div>
             </nav>
         </>
