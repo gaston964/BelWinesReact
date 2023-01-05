@@ -9,7 +9,9 @@ body {
   background-image: url("/images/patternpad.jpg");
   background-repeat: repeat;
   color: white;
+  margin-top: 50px;
 }
+
 
 /* -------------NAV-------------- */
 nav {
@@ -19,6 +21,11 @@ nav {
   background-color: black;
   color: aliceblue;
   font-family: 'Dancing Script', cursive;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
 .open {
@@ -109,7 +116,43 @@ nav {
   width: 380px;
   border-radius: 15%;
 }
+/* Vinos */
+.containerCategory{
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  min-width: 90vw;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+.containerCategory a{
+display: flex;
+align-items: center;
+min-width: 300;
+transition: all 0.3s ease;
+color: white;
+}
+.containerCategory a:hover{
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+}
 /* -------------Cart-------------- */
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+.container div.cartBoE{
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 15px;
+
+}
 .cartContainer{
   display: flex;
   flex-direction: column;
@@ -130,7 +173,7 @@ nav {
 }
 .cart-info {
   float: left;
-  height: 270px;
+  height: 320px;
   width: 327px;
   border-radius: 0 7px 10px 7px;
   background-color: #ffffff;
@@ -140,7 +183,7 @@ nav {
   width: 327px;
 }
 
-.cart-text h1 {
+.cart-text h1{
   margin: 0 0 0 38px;
   padding-top: 52px;
   font-size: 34px;
@@ -161,6 +204,9 @@ nav {
   color: #d2d2d2;
   letter-spacing: 0.2em;
 }
+.cart-text h3, h4{
+  color: #474747;
+}
 .cart-price-btn {
   display: flex;
   flex-direction: column;
@@ -169,7 +215,18 @@ nav {
   width: 300px;
   margin: auto;
 }
-
+.cart-price-btn button{
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px;
+  background-color: grey;
+  color: white;
+  height: 45px;
+}
+.cart-price-btn button:hover{
+  background-color: black;
+  color: yellow;
+}
 .cart-price-btn p {
   height: 50px;
   font-family: 'Trocchi', serif;
@@ -181,6 +238,25 @@ span {
   height: 50px;
   font-family: 'Suranna', serif;
   font-size: 34px;
+}
+
+.cartBoE{
+
+  background-color: rgba(255, 255, 0, 0.952);
+  color: black;
+  text-align: center;
+  border-radius: 15%;
+}
+.cartBoE button{
+  width: 100px;
+  height: 35px;
+  margin: 5px;
+  border-radius: 25%;
+  cursor: pointer;
+}
+.cartBoE button:hover{
+  background-color: black;
+  color: yellow;
 }
 /* --------Footer----------- */
 .footer {
