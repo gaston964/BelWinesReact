@@ -1,25 +1,74 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { CartContext } from '../context/CartContext'
 
 const Cart = () => {
+    const { cart, removeItem, emptyCart, getTotalPrice } = useContext(CartContext)
     return (
         <>
-        <div className="container">
-                <div className="cart-img">
-                    <img src='\images\bodega3.jpg' height="420" width="327" />
-                </div>
-                <div className="cart-info">
-                    <div className="cart-text">
-                        <h1>nombre</h1>
-                        <h2>by BelWines</h2>
+            <div className="container">
+                {cart.map(cartItm =>{
+                    <div className="cartContainer">
+                    <div className="cart-img">
+                        <img src={cartItm.img} height="420" width="327" />
                     </div>
-                    <div className="product-price-btn">
-                        <p><span>precio</span>$</p>
-                        
+                    <div className="cart-info">
+                        <div className="cart-text">
+                            <h1>{cartItm.nombre}</h1>
+                            <h2>by BelWines</h2>
+                        </div>
+                        <div className="cart-price-btn">
+                            <p>$<span>{cartItm.precio}</span></p>
+                            <h4>Subtotal: ${cartItm.cantidad * cartItm.price} </h4>
+                        </div>
                     </div>
-                </div>
+                </div> 
+                })}
             </div>
         </>
     )
 }
 
 export default Cart
+/* 
+<div className="cartContainer">
+                    <div className="cart-img">
+                        <img src={cartItm.img} height="420" width="327" />
+                    </div>
+                    <div className="cart-info">
+                        <div className="cart-text">
+                            <h1>{cartItm.nombre}</h1>
+                            <h2>by BelWines</h2>
+                        </div>
+                        <div className="cart-price-btn">
+                            <p>$<span>{cartItm.precio}</span></p>
+                            <h4>Subtotal: ${cartItm.cantidad * cartItm.price} </h4>
+                        </div>
+                    </div>
+                </div> 
+
+<div className='cartBoE'>
+                            <h3>Total: ${getTotalPrice()}</h3>
+                            <button className='item-det-button' onClick={emptyCart}>Vaciar Carrito</button>
+                            <Link to={"/form"} >
+                                <button className={`item-det-button`} >Comprar</button>
+                            </Link>
+                        </div>
+
+
+
+
+                <div className="cartContainer">
+                    <div className="cart-img">
+                        <img src='\images\bodega3.jpg' height="420" width="327" />
+                    </div>
+                    <div className="cart-info">
+                        <div className="cart-text">
+                            <h1>nombre</h1>
+                            <h2>by BelWines</h2>
+                        </div>
+                        <div className="cart-price-btn">
+                            <p><span>precio</span>$</p>
+                        </div>
+                    </div>
+                </div> 
+*/

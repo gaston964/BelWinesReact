@@ -11,7 +11,7 @@
 
 .product-img {
     float: left;
-    height: 420px;
+    height: 320px;
     width: 327px;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .product-info {
-    height: 320px;
+    height: 420px;
     width: 327px;
     border-radius: 0 7px 10px 7px;
     background-color: #ffffff;

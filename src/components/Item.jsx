@@ -2,16 +2,16 @@ import React, { useContext, useState } from 'react'
 import { CartContext } from '../context/CartContext'
 import "./item.css"
 
-const Item = ({ nombre, precio, img, descripcion }) => {
+const Item = ({ id, nombre, precio, img, descripcion }) => {
     const {cart, addToCart} = useContext(CartContext)
     const addHandler = () => {
-        let producto={nombre, precio, img, descripcion}
+        let producto={id,nombre, precio, img, descripcion}
         addToCart(producto, 1)
         console.log(cart);
         }
     return (
         <>
-            <div className="wrapper">
+            <div className="wrapper" key={id}>
                 <div className="product-img">
                     <img src={img} height="420" width="327" />
                 </div>
