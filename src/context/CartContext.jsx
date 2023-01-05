@@ -31,7 +31,7 @@ export const CartContextProvider = ({children}) => {
     function getTotalItemCount() {
         let total = 0;
         cart.forEach(itemInCart => {
-            total = total + itemInCart.cantidad
+            total += itemInCart.cantidad
         })
         return total;
     }

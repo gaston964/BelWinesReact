@@ -21,7 +21,9 @@ const Navbar = () => {
                         <Link>Envios</Link>
                         {/* <Link>Sobre Nosotros</Link> */}
                     </div>
+                    <Link to={"/cart"}>
                     <CartWidget/>
+                    </Link>
                 </div>
                 <div className="close">
                     <button onClick={() => setIsMenuOpen(!isMenuOpen)}><GoGrabber /></button>
@@ -33,7 +35,9 @@ const Navbar = () => {
                             Sobre Nosotros
                         </Link> */}
                     </div>
+                    <Link to={"/cart"}>
                     <CartWidget/>
+                    </Link>
                 </div>
             </nav>
         </>

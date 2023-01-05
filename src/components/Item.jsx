@@ -4,11 +4,11 @@ import "./item.css"
 
 const Item = ({ nombre, precio, img, descripcion }) => {
     const {cart, addToCart} = useContext(CartContext)
-    const [quantity, setquantity] = useState(0)
-    const addHandler = (cantidad) => {
-        addToCart(Item, cantidad)
-        setquantity(cantidad)
-    }
+    const addHandler = () => {
+        let producto={nombre, precio, img, descripcion}
+        addToCart(producto, 1)
+        console.log(cart);
+        }
     return (
         <>
             <div className="wrapper">

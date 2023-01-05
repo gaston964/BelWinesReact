@@ -88,7 +88,57 @@ nav {
 }
 
 /* -------------Sobrneos-------------- */
+/* -------------Cart-------------- */
+.container{
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  max-width: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 65px;
+  border-radius: 7px 7px 7px 7px;
+}
+.cart-img {
+  height: 320px;
+  width: 327px;
+}
+.cart-img img {
+  border-radius: 7px 0 0 7px;
+}
+.cart-info {
+  float: left;
+  height: 220px;
+  width: 327px;
+  border-radius: 0 7px 10px 7px;
+  background-color: #ffffff;
+}
+.cart-text {
+  height: 200px;
+  width: 327px;
+}
 
+.cart-text h1 {
+  margin: 0 0 0 38px;
+  padding-top: 52px;
+  font-size: 34px;
+  color: #474747;
+}
+
+.cart-text h1,
+.cart-price-btn p {
+  font-family: 'Bentham', serif;
+}
+
+.cart-text h2 {
+  margin: 0 0 47px 38px;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #d2d2d2;
+  letter-spacing: 0.2em;
+}
 /* --------Footer----------- */
 .footer {
   display: flex;
