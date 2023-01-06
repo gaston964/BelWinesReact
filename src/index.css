@@ -266,7 +266,7 @@ span {
 /* --------Footer----------- */
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0px 0px 0px 25px;
   align-items: center;
 
@@ -453,8 +453,9 @@ height: 200px;
 
 /* -------Footer-------- */
 .footer{
+  display: flex;
   flex-direction: column;
-margin-top: 25px;
+  margin-top: 25px;
 }
 /* -------SobreNos-------- */
 .sobrenosContainer{
@@ -475,6 +476,21 @@ margin-top: 25px;
   display: none;
 }
 
+.cartContainer{
 
-
+  margin-right: 0;
+}
+.container div.cartBoE{
+  position: unset;
+  height: 150px;
+}
+.cartBoE button{
+  height: 65px;
+}
+.footer{
+margin: auto;
+}
+.footerRedes{
+  justify-content: unset;
+}
 }
