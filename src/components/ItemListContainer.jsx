@@ -3,24 +3,25 @@ import { Link, useParams } from 'react-router-dom'
 import Item from './Item'
 
 const ItemListContainer = () => {
+    const { id } = useParams()
     const [items, setItems] = useState([])
     useEffect(() => {
         vinos()
-    }, [])
-    const { id } = useParams()
+    }, [id])
     const vinos = async () => {
         let response = await fetch("https://raw.githubusercontent.com/gaston964/JSON/main/BelProducts")
         let data = await response.json();
-        setItems(data, id);
+        id ? setItems(data.filter((item)=> item.category === id)) : setItems(data)
+        
     }
 
     return (
         <div >
             <div className="containerCategory">
-                <Link to={'/category/Tintos'}><h3>Tintos</h3></Link>
-                <Link to={'/category/Blancos'}><h3>Blancos</h3></Link>
-                <Link to={'/category/Rosados'}><h3>Rosados</h3></Link>
-                <Link to={'/category/Espumantes'}><h3>Espumantes</h3></Link>
+                <Link to={'/vinos/category/Tintos'}><h3>Tintos</h3></Link>
+                <Link to={'/vinos/category/Blancos'}><h3>Blancos</h3></Link>
+                <Link to={'/vinos/category/Rosados'}><h3>Rosados</h3></Link>
+                <Link to={'/vinos/category/Espumantes'}><h3>Espumantes</h3></Link>
             </div>
             <div className='itemContainer'>
                 {items.map(i => <Item key={i.id} {...i}/>)}

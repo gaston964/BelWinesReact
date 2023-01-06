@@ -141,9 +141,12 @@ color: white;
 /* -------------Cart-------------- */
 .container{
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
+  padding: 0;
+  width:100vw;
 }
 .container div.cartBoE{
   height: 100px;
@@ -258,6 +261,8 @@ span {
   background-color: black;
   color: yellow;
 }
+/* --------Form----------- */
+
 /* --------Footer----------- */
 .footer {
   display: flex;

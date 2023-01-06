@@ -33,7 +33,7 @@ const Cart = () => {
                 <div className='cartBoE'>
                     <h3>Total: ${getTotalPrice()}</h3>
                     <button className='item-det-button' onClick={emptyCart}>Vaciar Carrito</button>
-                    <Link to={"/form"} >
+                    <Link to={'/form'} >
                         <button className={`item-det-button`} >Comprar</button>
                     </Link>
                 </div>
