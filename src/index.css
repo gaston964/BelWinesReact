@@ -104,8 +104,8 @@ nav {
   padding: 25px;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.sobrenosInfo h1, h3, p {
-  margin: 15px;
+.sobrenosInfo h1, h3,h5, p {
+  padding: 10px
 }
 .column {
   float: left;
@@ -459,7 +459,7 @@ height: 200px;
 }
 /* -------SobreNos-------- */
 .sobrenosContainer{
-  flex-direction: column;
+  flex-direction: column-reverse;
   flex-wrap: wrap;
   align-items: center;
 }
