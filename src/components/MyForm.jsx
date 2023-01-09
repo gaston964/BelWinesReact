@@ -7,7 +7,7 @@ const MyForm = () => {
     const { cart, getTotalPrice, emptyCart } = useContext(CartContext)
     function sendEmail(e) {
         e.preventDefault();
-        emailjs.sendForm('service_jfojd4w', 'template_j1dj6xg', e.target, 'I7ptfzCJNNyJUimnH')
+        emailjs.sendForm('service_vhtseta', 'template_fzr8tha', e.target, 'I7ptfzCJNNyJUimnH')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -16,49 +16,53 @@ const MyForm = () => {
     }
     return (
         <>
-            <form class="container" onSubmit={sendEmail}>
-                <h1 class="title">Formulario de Envío</h1>
-                <div class="row">
-                    <div class="inputbox">
+            <form className="container" onSubmit={sendEmail}>
+                <h1 className="title">Formulario de Envío</h1>
+                <div className="row">
+                    <div className="inputbox">
                         <input type="text" name='name' id="name" required />
-                        <label for="name">Nombre y Apellido</label>
+                        <label htmlFor="name">Nombre y Apellido</label>
                     </div>
-                    <div class="inputbox">
+                    <div className="inputbox">
                         <input type="text" name='email' id="email" required />
-                        <label for="email">Email</label>
+                        <label htmlFor="email">Email</label>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="inputbox">
+                <div className="row">
+                    <div className="inputbox">
                         <input type="text" name='CP' id="cep" required />
-                        <label for="cep">Codigo Postal</label>
+                        <label htmlFor="cep">Codigo Postal</label>
                     </div>
-                    <div class="inputbox">
+                    <div className="inputbox">
                         <input type="text" name='adress' id="endereco" required />
-                        <label for="endereco">Dirección</label>
+                        <label htmlFor="endereco">Dirección</label>
                     </div>
-                    <div class="inputbox">
+                    <div className="inputbox">
                         <input type="text" id="numero" required />
-                        <label for="numero">Número</label>
+                        <label htmlFor="numero">Número</label>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="inputbox">
+                <div className="row">
+                    <div className="inputbox">
                         <input type="text" name='city' id="cidade" required />
-                        <label for="cidade">Departamento</label>
+                        <label htmlFor="cidade">Ciudad</label>
                     </div>
-                    <div class="inputbox">
+                    <div className="inputbox">
+                        <input type="text" name='state' id="cidade" required />
+                        <label htmlFor="cidade">Departamento</label>
+                    </div>
+                    <div className="inputbox">
                         <input type="text" name='phone' id="phone" required />
-                        <label for="phone">Número de celular</label>
+                        <label htmlFor="phone">Número de celular</label>
                     </div>
                 </div>
                 <div className="row">
                     <div className="labelCart">
-                    <label for="cart" className='title'>Carrito de compras:</label>
+                    <label htmlFor="cart" className='title'>Carrito de compras:</label>
                     <textarea name="cart" id='cart' className='textareaCart' value={cart.map(item => `${item.descripcion}, (${item.cantidad} x $${item.precio} = $${item.cantidad * item.precio})`).join(', ')} readOnly />
                     </div>
                 </div>
-                <div class="row">
+                <div className="row">
                     <button id="btn">Enviar</button>
                 </div>
             </form>
