@@ -119,25 +119,27 @@ span {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        min-height: 700px;
+        min-height: 100vh;
         max-width: 350px;
-        margin-top: 50px;
+        margin-top: 20px;
         margin-bottom: 10px;
         margin-left: 65px;
         border-radius: 7px 7px 7px 7px;
     }
 
     .product-info {
-        height: 300px;
+        height: 390px;
     }
 
     .product-text {
-        height: 200px;
+        height: 270px;
     }
 
     .product-price-btn {
         height: 200px;
     }
-
+    .product-img{
+        height: 400px;
+    }
     
 }

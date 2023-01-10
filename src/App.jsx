@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import ItemListContainer from './components/ItemListContainer'
 import MyForm from './components/MyForm'
 import Navbar from './components/Navbar'
+import Promos from './components/Promos'
 import SobreNos from './components/SobreNos'
 
 
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<SobreNos />} />
+        <Route path='/promos' element={<Promos/>} />
         <Route path='/vinos' element={<ItemListContainer />} />
         <Route path='/vinos/category/:id' element={<ItemListContainer />} />
         <Route path='/cart' element={<Cart />} />

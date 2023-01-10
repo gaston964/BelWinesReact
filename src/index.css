@@ -15,12 +15,10 @@ body {
 
 /* -------------NAV-------------- */
 nav {
-  font-family: 'Dancing Script', cursive;
   font-size: 1.5rem;
   display: flex;
   background-color: black;
   color: aliceblue;
-  font-family: 'Dancing Script', cursive;
   position: fixed;
   top: 0;
   left: 0;
@@ -287,7 +285,8 @@ font-size: 1.6rem;
 }
 .footerLogo img {
   width: 250px;
-  height: 150px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .footerRedes {
@@ -451,6 +450,8 @@ height: 200px;
     background-color: yellow;
   }
 
+/* -------VInos-------- */
+
 /* -------Footer-------- */
 .footer{
   display: flex;
@@ -493,4 +494,14 @@ margin: auto;
 .footerRedes{
   justify-content: unset;
 }
+}
+@media (min-width: 769px) and (max-width: 1023px){
+  .sobrenosContainer{
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .hide{
+    display: none;
+  }
 }

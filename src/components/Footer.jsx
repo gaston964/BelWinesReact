@@ -21,7 +21,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className='footerLogo'>
-                    <img src='\images\logobel.png' alt="logobel" />
+                    <img src='\images\logobel3.JPG' alt="logobel" />
                 </div>
             </div>
         </>

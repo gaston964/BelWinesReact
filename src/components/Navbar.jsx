@@ -16,10 +16,8 @@ const Navbar = () => {
                         </Link>
                     </div>
                     <div className="navLink">
-                        <Link>Promos</Link>
+                        <Link to={'/promos'}>Promos</Link>
                         <Link to={'/vinos'}>Vinos</Link>
-                        <Link>Envios</Link>
-                        {/* <Link>Sobre Nosotros</Link> */}
                     </div>
                     <Link to={"/cart"}>
                     <CartWidget/>
