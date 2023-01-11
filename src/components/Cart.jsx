@@ -11,8 +11,8 @@ const Cart = ({ condition }) => {
                 {condition &&
                     <div className='cartPadreCondicional'>
                         <h2>No hay Items en el Carrito</h2>
-                        <Link to={"/"}>
-                            <button className='cartBtn'>Volver al inicio</button>
+                        <Link to={"/vinos"}>
+                            <button className='cartBtn'>Volver a Vinos</button>
                         </Link>
                     </div>
                 }
