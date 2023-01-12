@@ -5,17 +5,20 @@ import emailjs from 'emailjs-com';
 
 const MyForm = () => {
     const { cart, getTotalPrice } = useContext(CartContext)
+    const [order, setOrder] = useState('')
     function sendEmail(e) {
         e.preventDefault();
         emailjs.sendForm('service_vhtseta', 'template_fzr8tha', e.target, 'I7ptfzCJNNyJUimnH')
             .then((result) => {
-                console.log(result.text);
+                setOrder(result.text);
             }, (error) => {
                 console.log(error.text);
             });
     }
     return (
         <>
+                {order ? <h2>Muchas Gracias por su compra, su pedido ya fue enviado! {order}</h2> 
+                : 
             <form className="container" onSubmit={sendEmail}>
                 <h1 className="title">Formulario de Envío</h1>
                 <div className="row">
@@ -58,14 +61,16 @@ const MyForm = () => {
                 </div>
                 <div className="row">
                     <div className="labelCart">
-                    <label htmlFor="cart" className='title'>Carrito de compras:</label>
-                    <textarea name="cart" id='cart' className='textareaCart' value={cart.map(item => `${item.descripcion}, (${item.cantidad} x $${item.precio} = $${item.cantidad * item.precio}).\nTotal=$${getTotalPrice()}`).join(', ')} readOnly />
+                        <label htmlFor="cart" className='title'>Carrito de compras:</label>
+                        <textarea name="cart" id='cart' className='textareaCart' value={cart.map(item => `${item.descripcion}, (${item.cantidad} x $${item.precio} = $${item.cantidad * item.precio}).\nTotal=$${getTotalPrice()}`).join(', ')} readOnly />
                     </div>
                 </div>
                 <div className="row">
                     <button id="btn">Enviar</button>
                 </div>
             </form>
+                
+                }
         </>
     )
 }
