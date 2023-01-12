@@ -1,33 +1,30 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom'
 import { CartContext } from '../context/CartContext'
+import Item from './Item'
 import Loader from './Loader'
 
-const Promos = ({id,nombre, precio, img, descripcion}) => {
-    const {cart, addToCart} = useContext(CartContext)
-    const addHandler = () => {
-        let producto={id,nombre, precio, img, descripcion}
-        addToCart(producto, 1)
-        console.log(cart);
-        }
+const Promos = () => {
+    const { category } = useParams()
+    const [loading, setLoading] = useState(false)
+    const [items, setItems] = useState([])
+    useEffect(() => {
+    promos()
+    }, [category])
+    
+    const promos = async () => {
+        setLoading(true)
+        setTimeout( async () => {
+            let response = await fetch("https://raw.githubusercontent.com/gaston964/JSON/main/BelProducts")
+            let data = await response.json();
+            setItems(data.filter((item) => (item.category === "Promos")))
+            setLoading(false)
+        }, 1500);
+    }
     return (
         <>
         <div className="promos">
-        <div className="wrapper" key={id}>
-                <div className="product-img">
-                    <img src='' height="420" width="327" />
-                </div>
-                <div className="product-info">
-                    <div className="product-text">
-                        <h1>Promo 1</h1>
-                        <h2>by BelWines</h2>
-                        <p><strong></strong></p>
-                    </div>
-                    <div className="product-price-btn">
-                        <p><span>26500</span>$</p>
-                        <button type="button" onClick={addHandler}>buy now</button>
-                    </div>
-                </div>
-            </div>
+        {loading ? <Loader /> : items.map(i => <Item key={i.id} {...i}/>)}
         </div>
         </>
     )

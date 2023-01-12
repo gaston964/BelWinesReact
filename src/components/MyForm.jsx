@@ -17,7 +17,12 @@ const MyForm = () => {
     }
     return (
         <>
-                {order ? <h2>Muchas Gracias por su compra, su pedido ya fue enviado! {order}</h2> 
+                {order ? 
+                <div className='containerCondicional'>
+                    <h2>Muchas Gracias por su compra, su pedido ya fue enviado! {order}</h2>
+                    <h3>Saludos de BelWines!</h3>
+                    <img src="/images/logobel3.JPG" alt="" />
+                </div>
                 : 
             <form className="container" onSubmit={sendEmail}>
                 <h1 className="title">Formulario de Envío</h1>
@@ -39,10 +44,6 @@ const MyForm = () => {
                     <div className="inputbox">
                         <input type="text" name='adress' id="endereco" required />
                         <label htmlFor="endereco">Dirección</label>
-                    </div>
-                    <div className="inputbox">
-                        <input type="text" id="numero" required />
-                        <label htmlFor="numero">Número</label>
                     </div>
                 </div>
                 <div className="row">

@@ -150,8 +150,7 @@
         "precio": 4600,
         "img": "/images/Richardi Fazio2.jpg",
         "category": "Espumantes"
-    }
-    ,
+    },
     {
         "id": "E3",
         "nombre": "Moulin Bleu Extra Brut",
@@ -167,5 +166,29 @@
         "precio": 4600,
         "img": "/images/moulin_bleu.jpg",
         "category": "Espumantes"
+    },
+    {
+        "id": "P1",
+        "nombre": "Promo N°1",
+        "descripcion": "INCLUYE : 1 CAJA Bodega Los Toneles Abrasado Malbec1 CAJA Bodega Atilio Avena Línea Atilio Malbec1 CAJA Bodega Richardi Fazio Menegazzo Rime Varietal Malbec 1 CAJA Bodega Don Bosco Otro Loco Más Malbec. CAJA REGALO : Vasco Viejo Edición Vintage Malbec",
+        "precio": 28.000,
+        "img": "/images/promo.jpg",
+        "category": "Promos"
+    },
+    {
+        "id": "P2",
+        "nombre": "Promo N°2",
+        "descripcion": "INCLUYE : 1 CAJA Bodega Los Toneles Abrasado Malbec1 CAJA Bodega Atilio Avena Línea Atilio Malbec1 CAJA Bodega Richardi Fazio Menegazzo Rime Varietal Malbec 1 CAJA Bodega Don Bosco Otro Loco Más Malbec. CAJA REGALO : Vasco Viejo Edición Vintage Malbec",
+        "precio": 29.600,
+        "img": "/images/promo2.jpg",
+        "category": "Promos"
+    },
+    {
+        "id": "P3",
+        "nombre": "Promo N°3",
+        "descripcion": "INCLUYE : 1 CAJA Bodega Don Bosco Reserva Malbec. 1 CAJA Bodegas López • López Malbec. 1 CAJA Bodega RichardiFazio Menegazzo Rime Varietal. 1 CAJA ESPUMANTE Bodega Richardi Fazio Menegazzo Línea Moulin Bleu Extra Brut, Extra Dulce o Rosado Dulce. Caja de regalo: Vasco Viejo Edición Vintage Malbec. ",
+        "precio": 28.000,
+        "img": "/images/bodega3.jpg",
+        "category": "Promos"
     }
 ]
