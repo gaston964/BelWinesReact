@@ -6,11 +6,14 @@
 }
 
 body {
-  background-image: url("/images/patternpad.jpg");
-  background-repeat: repeat;
+  background-image: url("/images/fondo.jpg");
+  background-repeat: round;
   color: white;
   margin-top: 50px;
+  font-family: 'Noto Serif Toto', serif;
 }
+/* font-family: 'Noto Serif Toto', serif;
+font-family: 'Raleway', sans-serif; */
 
 
 /* -------------NAV-------------- */
@@ -78,6 +81,7 @@ nav {
   background-color: rgba(0, 0, 0, 0.089);
   color: yellow;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .close {
@@ -95,6 +99,8 @@ nav {
 /* -------------Sobrneos-------------- */
 .sobrenosContainer{
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .sobrenosInfo{
   display: flex;
@@ -124,6 +130,10 @@ nav {
   justify-content: space-around;
   padding: 10px;
 }
+.containerCategory h3{
+  background-color: rgba(0, 0, 0, 0.507);
+  border-radius: 15px;
+}
 .containerCategory a{
 display: flex;
 align-items: center;
@@ -132,8 +142,7 @@ transition: all 0.3s ease;
 color: white;
 }
 .containerCategory a:hover{
-  background-color: yellow;
-  color: black;
+  color: yellow;
   cursor: pointer;
 }
 /* -------------Cart-------------- */
@@ -208,11 +217,11 @@ color: white;
   color: #474747;
 }
 
-.cart-text h1,
+/* .cart-text h1,
 .cart-price-btn p {
   font-family: 'Bentham', serif;
 }
-
+ */
 .cart-text h2 {
   margin: 0 0 47px 38px;
   font-size: 13px;
@@ -247,14 +256,14 @@ color: white;
 }
 .cart-price-btn p {
   height: 50px;
-  font-family: 'Trocchi', serif;
+  font-family: 'Noto Serif Toto', serif;
   font-size: 28px;
   font-weight: lighter;
   color: #474747;
 }
 span {
   height: 50px;
-  font-family: 'Suranna', serif;
+  font-family: 'Noto Serif Toto', serif;
   font-size: 34px;
 }
 
@@ -305,9 +314,9 @@ span {
 font-size: 1.6rem;
 }
 .footerLogo img {
-  width:180px;
-  height: 150px;
-  border-radius: 50%;
+  width:120px;
+  height: 120px;
+  border-radius: 15%;
 }
 
 .footerRedes {

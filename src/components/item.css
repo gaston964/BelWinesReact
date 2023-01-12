@@ -3,7 +3,7 @@
     height: 380px;
     max-width: 600px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     margin-right: 65px;
     border-radius: 7px 7px 7px 7px;
 
@@ -11,16 +11,18 @@
 
 .product-img {
     float: left;
-    height: 320px;
+    height: 480px;
     width: 327px;
+    object-fit: cover;
 }
 
 .product-img img {
     border-radius: 7px 0 0 7px;
+    height: 480px;
 }
 
 .product-info {
-    height: 420px;
+    height: 480px;
     width: 327px;
     border-radius: 0 7px 10px 7px;
     background-color: #ffffff;
@@ -40,7 +42,7 @@
 
 .product-text h1,
 .product-price-btn p {
-    font-family: 'Bentham', serif;
+    font-family: 'Noto Serif Toto', serif;
 }
 
 .product-text h2 {
@@ -49,14 +51,14 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    color: #d2d2d2;
+    color: #000000;
     letter-spacing: 0.2em;
 }
 
 .product-text p {
     height: 190px;
     margin: 0 0 0 38px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Noto Serif Toto', serif;
     color: #8d8d8d;
     line-height: 1.7em;
     font-size: 15px;
@@ -78,7 +80,7 @@
 
 .product-price-btn p {
     height: 50px;
-    font-family: 'Trocchi', serif;
+    font-family: 'Noto Serif Toto', serif;
     font-size: 28px;
     font-weight: lighter;
     color: #474747;
@@ -86,7 +88,7 @@
 
 span {
     height: 50px;
-    font-family: 'Suranna', serif;
+    font-family: 'Noto Serif Toto', serif;
     font-size: 34px;
 }
 

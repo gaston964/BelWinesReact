@@ -27,9 +27,8 @@ const Navbar = () => {
                     <button onClick={() => setIsMenuOpen(!isMenuOpen)}><GoGrabber /></button>
                     <div className={isMenuOpen ? 'open' : 'closeMenu'}>
                         <Link to={'/'}>Inicio</Link>
-                        <Link>Promos</Link>
+                        <Link to={'/promos'}>Promos</Link>
                         <Link to={"/vinos"}>Vinos</Link>
-                        <Link>Envios</Link>
                         {/* <Link>
                             Sobre Nosotros
                         </Link> */}

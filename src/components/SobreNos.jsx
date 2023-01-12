@@ -5,9 +5,6 @@ const SobreNos = () => {
     return (
         <>
             <div className="sobrenosContainer">
-                <div className="column">
-                    <img src='\images\belbodega.jpg' alt="Image 1" />
-                </div>
                 <div className="sobrenosInfo">
                     <h1>Bienvenidos a BelWines!</h1>
                     <h3>Sobre nosotros...</h3>
@@ -23,8 +20,8 @@ const SobreNos = () => {
                     <h3>Hago envíos a todo el país, a través de Andesmar Cargas a domicilio o Andreani a sucursal. </h3>
                     <h2>LOS INVITO A CONOCERME</h2>
                 </div>
-                <div className="column hide">
-                    <img src='\images\bodega2.jpg' alt="Image 2" />
+                <div>
+                    <img src='\images\belbodega.jpg' alt="Image 1" />
                 </div>
             </div>
         </>

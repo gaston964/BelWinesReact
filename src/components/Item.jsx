@@ -22,8 +22,8 @@ const Item = ({ id, nombre, precio, img, descripcion }) => {
                         <p><strong>{descripcion}</strong></p>
                     </div>
                     <div className="product-price-btn">
-                        <p><span>{precio}</span>$</p>
-                        <button type="button" onClick={addHandler}>buy now</button>
+                        <p>$<span>{precio}</span></p>
+                        <button type="button" onClick={addHandler}>Comprar</button>
                     </div>
                 </div>
             </div>

@@ -8,10 +8,8 @@ const Footer = () => {
             <div className='footer'>
                 <div className='footerLink'>
                     <Link to={"/"}>Inicio</Link>
-                    <Link>Promos</Link>
+                    <Link to={'/promos'}>Promos</Link>
                     <Link to={'/vinos'}>Vinos</Link>
-                    <Link>Envios</Link>
-                    {/* <Link>Sobre Nosotros</Link> */}
                 </div>
                 <div className='footerRedes'>
                     <ul className='wrapperFooter'>
@@ -22,7 +20,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className='footerLogo'>
-                    <img src='\images\logobel3.JPG' alt="logobel" />
+                    <img src='\images\logobel2.png' alt="logobel" />
                 </div>
             </div>
             <a href="mailto:"></a>
