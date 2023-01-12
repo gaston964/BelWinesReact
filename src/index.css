@@ -297,7 +297,7 @@ span {
   justify-content: space-around;
   margin: 0px 0px 0px 25px;
   align-items: center;
-
+  background-color: rgba(0, 0, 0, 0.637);
 }
 
 .footerLink {
