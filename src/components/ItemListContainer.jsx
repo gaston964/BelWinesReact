@@ -21,7 +21,7 @@ const ItemListContainer = () => {
     }
 
     return (
-        <div >
+        <div className='containerVinos'>
             <div className="containerCategory">
                 <Link to={'/vinos/category/Tintos'}><h3>Tintos</h3></Link>
                 <Link to={'/vinos/category/Blancos'}><h3>Blancos</h3></Link>

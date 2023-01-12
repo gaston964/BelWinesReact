@@ -143,7 +143,7 @@ color: white;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
-  min-width:100vw;
+  max-width:100vw;
 }
 .container div.cartBoE{
   height: 100px;
@@ -463,12 +463,17 @@ height: 200px;
 
 /* -------VInos-------- */
 
+.itemContainer{
+  margin-top: 100px;
+}
+
 /* -------Footer-------- */
 .footer{
   display: flex;
   flex-direction: column;
   margin-top: 25px;
 }
+
 /* -------SobreNos-------- */
 .sobrenosContainer{
   flex-direction: column-reverse;
@@ -489,7 +494,6 @@ height: 200px;
 }
 
 .cartContainer{
-
   margin-right: 0;
 }
 .container div.cartBoE{
@@ -504,6 +508,9 @@ margin: auto;
 }
 .footerRedes{
   justify-content: unset;
+}
+.container{
+margin-left: 40px;
 }
 }
 @media (min-width: 769px) and (max-width: 1023px){

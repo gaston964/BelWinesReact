@@ -4,7 +4,7 @@ import './myform.css'
 import emailjs from 'emailjs-com';
 
 const MyForm = () => {
-    const { cart, getTotalPrice, emptyCart } = useContext(CartContext)
+    const { cart, getTotalPrice } = useContext(CartContext)
     function sendEmail(e) {
         e.preventDefault();
         emailjs.sendForm('service_vhtseta', 'template_fzr8tha', e.target, 'I7ptfzCJNNyJUimnH')
@@ -59,7 +59,7 @@ const MyForm = () => {
                 <div className="row">
                     <div className="labelCart">
                     <label htmlFor="cart" className='title'>Carrito de compras:</label>
-                    <textarea name="cart" id='cart' className='textareaCart' value={cart.map(item => `${item.descripcion}, (${item.cantidad} x $${item.precio} = $${item.cantidad * item.precio})`).join(', ')} readOnly />
+                    <textarea name="cart" id='cart' className='textareaCart' value={cart.map(item => `${item.descripcion}, (${item.cantidad} x $${item.precio} = $${item.cantidad * item.precio}).\nTotal=$${getTotalPrice()}`).join(', ')} readOnly />
                     </div>
                 </div>
                 <div className="row">
