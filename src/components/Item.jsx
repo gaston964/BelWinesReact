@@ -7,7 +7,6 @@ const Item = ({ id, nombre, precio, img, descripcion }) => {
     const addHandler = () => {
         let producto={id,nombre, precio, img, descripcion}
         addToCart(producto, 1)
-        console.log(cart);
         }
     return (
         <>

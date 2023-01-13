@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { CartContext } from '../context/CartContext'
 import Item from './Item'
+import ItemPromo from './ItemPromo'
 import Loader from './Loader'
 
 const Promos = () => {
@@ -24,7 +24,7 @@ const Promos = () => {
     return (
         <>
         <div className="promos">
-        {loading ? <Loader /> : items.map(i => <Item key={i.id} {...i}/>)}
+        {loading ? <Loader /> : items.map(i => <ItemPromo key={i.id} {...i}/>)} 
         </div>
         </>
     )

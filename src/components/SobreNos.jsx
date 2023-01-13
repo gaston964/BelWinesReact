@@ -1,10 +1,12 @@
 import React from 'react'
+import CustomAnnouncement from './CustomAnnouncement';
 
 
 const SobreNos = () => {
     return (
         <>
             <div className="sobrenosContainer">
+                <CustomAnnouncement/>
                 <div className="sobrenosInfo">
                     <h1>Bienvenidos a BelWines!</h1>
                     <h3>Sobre mi...</h3>

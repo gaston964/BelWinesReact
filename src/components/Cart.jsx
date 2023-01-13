@@ -10,10 +10,12 @@ const Cart = ({ condition }) => {
             <div className="container">
                 {condition &&
                     <div className='cartPadreCondicional'>
+                        <div>
                         <h2>No hay Items en el Carrito</h2>
                         <Link to={"/vinos"}>
                             <button className='cartBtn'>Volver a Vinos</button>
                         </Link>
+                        </div>
                     </div>
                 }
                 {!condition &&
