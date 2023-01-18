@@ -29,9 +29,6 @@ const Navbar = () => {
                         <Link to={'/'}>Inicio</Link>
                         <Link to={'/promos'}>Promos</Link>
                         <Link to={"/vinos"}>Vinos</Link>
-                        {/* <Link>
-                            Sobre Nosotros
-                        </Link> */}
                     </div>
                     <Link to={"/cart"}>
                     <CartWidget/>

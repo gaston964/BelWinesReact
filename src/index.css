@@ -6,9 +6,9 @@
 }
 
 body {
-  background-image: url("/images/fondo.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("/images/PAG4Prueba.png");
+  /* background-size: cover; */
+  background-repeat: repeat;
   color: white;
   margin-top: 50px;
   font-family: 'Noto Serif Toto', serif;
@@ -310,9 +310,9 @@ span {
 .footer {
   display: flex;
   justify-content: space-around;
-  margin: 0px 0px 0px 25px;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.637);
+
 }
 
 .footerLink {
@@ -552,5 +552,19 @@ margin-left: 40px;
   }
   .hide{
     display: none;
+  }
+}
+
+@media (max-width: 758px){
+  .itemContainer{
+    margin: 100px;
+  }
+  .wrapper{
+    margin: 105px;
+  }
+  .card{
+    height: 500px;
+    margin-bottom: 25px;
+    margin-top: 20px;
   }
 }
