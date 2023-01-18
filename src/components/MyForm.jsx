@@ -4,13 +4,14 @@ import './myform.css'
 import emailjs from 'emailjs-com';
 
 const MyForm = () => {
-    const { cart, getTotalPrice } = useContext(CartContext)
+    const { cart, getTotalPrice, emptyCart } = useContext(CartContext)
     const [order, setOrder] = useState('')
     function sendEmail(e) {
         e.preventDefault();
         emailjs.sendForm('service_vhtseta', 'template_fzr8tha', e.target, 'I7ptfzCJNNyJUimnH')
             .then((result) => {
                 setOrder(result.text);
+                emptyCart()
             }, (error) => {
                 console.log(error.text);
             });
