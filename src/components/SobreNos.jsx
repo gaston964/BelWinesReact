@@ -19,7 +19,7 @@ const SobreNos = () => {
                         Comencé a promocionar por Facebook y empecé a recibir pedidos de otras provincias.</p>
                     <p>Detrás de este negocio hay mucho esfuerzo y dedicación. Estoy involucrada con mi emprendimiento y con la satisfacción de mis clientes.</p>
                     <p>La idea del emprendimiento es ofrecer vinos de MENDOZA que no puedan encontrar en góndolas de supermercado, vinos de bodegas boutique o menos conocidas. </p>
-                    <h3>Hago envíos a todo el país, a través de Andesmar Cargas a domicilio o Andreani a sucursal. Demora aproximada 7 días hábiles. Los envíos sólo están incluídos en las promociones de la sección "PROMOS". De manera contraria pueden solicitarme cotización del envío vía Whatsapp, correo electrónico, DM en Instagram o Facebook.</h3>
+                    <p>Hago envíos a todo el país, a través de Andesmar Cargas a domicilio o Andreani a sucursal. Demora aproximada 7 días hábiles. Los envíos sólo están incluídos en las promociones de la sección "PROMOS". De manera contraria pueden solicitarme cotización del envío vía Whatsapp, correo electrónico, DM en Instagram o Facebook.</p>
                     <h3>Soy monotributista, hago factura "C".</h3>
                     <h2>LOS INVITO A CONOCERME</h2>
                 </div>

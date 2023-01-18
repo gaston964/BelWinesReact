@@ -4,7 +4,7 @@ function CustomAnnouncement() {
     const [visible, setVisible] = useState(true);
 
     return (
-        <div style={{ backgroundColor: 'yellow', padding: '10px', color: 'black' }}>
+        <div className='anuncio'>
             {visible && (
                 <span>
                     CAJAS A PARTIR DE $3.200

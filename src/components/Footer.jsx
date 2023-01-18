@@ -7,9 +7,10 @@ const Footer = () => {
         <>
             <div className='footer'>
                 <div className='footerLink'>
-                    <Link to={"/"}>Inicio</Link>
-                    <Link to={'/promos'}>Promos</Link>
-                    <Link to={'/vinos'}>Vinos</Link>
+                    <Link to={"/"}>INICIO</Link>
+                    <Link to={'/promos'}>PROMOS</Link>
+                    <Link to={'/vinos'}>VINOS</Link>
+                    <Link to={'/bodegas'}>BODEGAS</Link>
                 </div>
                 <div className='footerRedes'>
                     <ul className='wrapperFooter'>

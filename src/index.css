@@ -4,14 +4,13 @@
   list-style: none;
   text-decoration: none;
 }
-
 body {
   background-image: url("/images/PAG4Prueba.png");
-  /* background-size: cover; */
   background-repeat: repeat;
   color: white;
   margin-top: 50px;
   font-family: 'Noto Serif Toto', serif;
+  height: 100vh;
 }
 /* font-family: 'Noto Serif Toto', serif;
 font-family: 'Raleway', sans-serif; */
@@ -89,6 +88,34 @@ nav {
   display: none;
 }
 
+/* -------------customannaucmetn-------------- */
+.bodegasPadre{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.bodegasUl{
+  background-color: rgba(0, 0, 0, 0.589);
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+.bodegasUl li {
+  margin: 15px;
+}
+/* -------------customannaucmetn-------------- */
+.anuncio {
+  background-color: rgba(228, 228, 216, 0.589);
+  padding: 10px;
+  color: black;
+}
+.anuncio button{
+background-color: rgba(255, 255, 255, 0.164);
+border-radius: 15px;
+
+}
+
 /* -------------Item-------------- */
 .itemContainer {
   min-height: 100vh;
@@ -98,31 +125,39 @@ nav {
 }
 
 /* -------------Sobrneos-------------- */
-.sobrenosContainer{
+.sobrenosContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.sobrenosInfo{
+
+.sobrenosInfo {
   display: flex;
   flex-direction: column;
   padding: 25px;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.sobrenosInfo h1, h3,h5, p {
+
+.sobrenosInfo h1,
+h3,
+h5,
+p {
   padding: 10px
 }
+
 .column {
   float: left;
   width: 50%;
 }
-.column img{
+
+.column img {
   height: 520px;
   width: 380px;
   border-radius: 15%;
 }
+
 /* Vinos */
-.containerCategory{
+.containerCategory {
   display: flex;
   flex-wrap: wrap;
   height: 50px;
@@ -131,32 +166,37 @@ nav {
   justify-content: space-around;
   padding: 10px;
 }
-.containerCategory h3{
+
+.containerCategory h3 {
   background-color: rgba(0, 0, 0, 0.507);
   border-radius: 15px;
 }
-.containerCategory a{
-display: flex;
-align-items: center;
-min-width: 300;
-transition: all 0.3s ease;
-color: white;
+
+.containerCategory a {
+  display: flex;
+  align-items: center;
+  min-width: 300;
+  transition: all 0.3s ease;
+  color: white;
 }
-.containerCategory a:hover{
+
+.containerCategory a:hover {
   color: yellow;
   cursor: pointer;
 }
+
 /* -------------Cart-------------- */
-.container{
+.container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   margin: auto;
-  max-width:100vw;
+  max-width: 100vw;
   background-color: rgba(0, 0, 0, 0.644);
 }
-.containerCondicional{
+
+.containerCondicional {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -164,12 +204,14 @@ color: white;
   align-items: center;
   background-color: #000000a8;
 }
-.containerCondicional img{
-  width:180px;
+
+.containerCondicional img {
+  width: 180px;
   height: 150px;
   border-radius: 50%;
 }
-.container div.cartBoE{
+
+.container div.cartBoE {
   height: 100px;
   position: absolute;
   bottom: 0;
@@ -177,7 +219,8 @@ color: white;
   margin: 15px;
 
 }
-.cartPadreCondicional{
+
+.cartPadreCondicional {
   height: 90vh;
   width: 100vw;
   display: flex;
@@ -185,7 +228,8 @@ color: white;
   justify-content: center;
   align-items: center;
 }
-.cartPadreCondicional div{
+
+.cartPadreCondicional div {
   background-color: rgba(0, 0, 0, 0.658);
   height: 150px;
   display: flex;
@@ -193,7 +237,8 @@ color: white;
   align-items: center;
   justify-content: space-around;
 }
-.cartContainer{
+
+.cartContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -204,13 +249,16 @@ color: white;
   margin-right: 65px;
   border-radius: 7px 7px 7px 7px;
 }
+
 .cart-img {
   height: 320px;
   width: 327px;
 }
+
 .cart-img img {
   border-radius: 7px 0 0 7px;
 }
+
 .cart-info {
   float: left;
   height: 320px;
@@ -218,12 +266,13 @@ color: white;
   border-radius: 0 7px 10px 7px;
   background-color: #ffffff;
 }
+
 .cart-text {
   height: 200px;
   width: 327px;
 }
 
-.cart-text h1{
+.cart-text h1 {
   margin: 0 0 0 38px;
   padding-top: 52px;
   font-size: 34px;
@@ -244,9 +293,12 @@ color: white;
   color: #d2d2d2;
   letter-spacing: 0.2em;
 }
-.cart-text h3, h4{
+
+.cart-text h3,
+h4 {
   color: #474747;
 }
+
 .cart-price-btn {
   display: flex;
   flex-direction: column;
@@ -255,7 +307,8 @@ color: white;
   width: 300px;
   margin: auto;
 }
-.cart-price-btn button{
+
+.cart-price-btn button {
   border-radius: 10px;
   cursor: pointer;
   margin: 5px;
@@ -263,10 +316,12 @@ color: white;
   color: white;
   height: 45px;
 }
-.cart-price-btn button:hover{
+
+.cart-price-btn button:hover {
   background-color: black;
   color: yellow;
 }
+
 .cart-price-btn p {
   height: 50px;
   font-family: 'Noto Serif Toto', serif;
@@ -274,38 +329,43 @@ color: white;
   font-weight: lighter;
   color: #474747;
 }
+
 span {
   height: 50px;
   font-family: 'Noto Serif Toto', serif;
   font-size: 34px;
 }
 
-.cartBoE{
+.cartBoE {
 
   background-color: rgba(255, 255, 0, 0.952);
   color: black;
   text-align: center;
   border-radius: 15%;
 }
-.cartBoE button{
+
+.cartBoE button {
   width: 100px;
   height: 35px;
   margin: 5px;
   border-radius: 25%;
   cursor: pointer;
 }
-.cartBoE button:hover{
+
+.cartBoE button:hover {
   background-color: black;
   color: yellow;
 }
+
 /* --------Promos----------- */
-.promos{
+.promos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   max-width: 100vw;
   overflow: hidden;
 }
+
 /* --------Footer----------- */
 .footer {
   display: flex;
@@ -321,25 +381,28 @@ span {
   font-size: 1.3rem;
   justify-content: center;
 }
-.footerLink a{
+
+.footerLink a {
   color: white;
   transition: all 0.3s ease;
 }
-.footerLink a:hover{
-font-size: 1.6rem;
+
+.footerLink a:hover {
+  font-size: 1.6rem;
 }
+
 .footerLogo img {
-  width:120px;
+  width: 120px;
   height: 120px;
   border-radius: 15%;
 }
 
 .footerRedes {
   display: flex;
-align-items: center;
-justify-content: center;
-width: 300px;
-height: 200px;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
 }
 
 /* Hover effect icon */
@@ -420,6 +483,7 @@ height: 200px;
   background: #16df0f;
   color: #ffffff;
 }
+
 .wrapperFooter .facebook:hover,
 .wrapperFooter .facebook:hover .tooltip,
 .wrapperFooter .facebook:hover .tooltip::before {
@@ -444,6 +508,7 @@ height: 200px;
 
 
 @media (max-width: 768px) {
+
   /* ----------Navbar-------- */
   .open {
     display: none;
@@ -501,68 +566,79 @@ height: 200px;
     background-color: yellow;
   }
 
-/* -------VInos-------- */
+  /* -------VInos-------- */
 
-.itemContainer{
-  margin-top: 100px;
-}
+  .itemContainer {
+    margin-top: 100px;
+  }
 
-/* -------Footer-------- */
-.footer{
-  display: flex;
-  flex-direction: column;
-  margin-top: 25px;
-}
+  /* -------Footer-------- */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+  }
 
-/* -------SobreNos-------- */
-.sobrenosContainer{
-  flex-direction: column-reverse;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.sobrenosContainer img{
-  width: 280px;
-}
-/* ----------------------------------- */
-.cartContainer{
-  margin-right: 0;
-}
-.container div.cartBoE{
-  position: unset;
-  height: 150px;
-}
-.cartBoE button{
-  height: 65px;
-}
-.footer{
-margin: auto;
-}
-.footerRedes{
-  justify-content: unset;
-}
-.container{
-margin-left: 40px;
-}
-}
-@media (min-width: 769px) and (max-width: 1023px){
-  .sobrenosContainer{
+  /* -------SobreNos-------- */
+  .sobrenosContainer {
     flex-direction: column-reverse;
     flex-wrap: wrap;
     align-items: center;
   }
-  .hide{
+
+  .sobrenosContainer img {
+    width: 280px;
+  }
+
+  /* ----------------------------------- */
+  .cartContainer {
+    margin-right: 0;
+  }
+
+  .container div.cartBoE {
+    position: unset;
+    height: 150px;
+  }
+
+  .cartBoE button {
+    height: 65px;
+  }
+
+  .footer {
+    margin: auto;
+  }
+
+  .footerRedes {
+    justify-content: unset;
+  }
+
+  .container {
+    margin-left: 40px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .sobrenosContainer {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .hide {
     display: none;
   }
 }
 
-@media (max-width: 758px){
-  .itemContainer{
+@media (max-width: 758px) {
+  .itemContainer {
     margin: 100px;
   }
-  .wrapper{
+
+  .wrapper {
     margin: 105px;
   }
-  .card{
+
+  .card {
     height: 500px;
     margin-bottom: 25px;
     margin-top: 20px;
