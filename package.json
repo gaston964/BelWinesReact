@@ -1,8 +1,8 @@
 {
-  "name": "belwines",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "hostinger-react",
+"homepage": "https://bel-wines.com/",
+"version": "1.0.0",
+"description": "mi aplicación react",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
