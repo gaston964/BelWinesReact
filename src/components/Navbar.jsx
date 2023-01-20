@@ -27,10 +27,10 @@ const Navbar = () => {
                 <div className="close">
                     <button onClick={() => setIsMenuOpen(!isMenuOpen)}><GoGrabber /></button>
                     <div className={isMenuOpen ? 'closeMenu' :  'open'}>
-                        <Link to={'/'}>INICIO</Link>
-                        <Link to={"/bodegas"}>BODEGAS</Link>
-                        <Link to={"/vinos"}>VINOS</Link>
-                        <Link to={'/promos'}>PROMOS</Link>
+                        <Link to={'/'} onClick={() => setIsMenuOpen(false)}>INICIO</Link>
+                        <Link to={"/bodegas"} onClick={() => setIsMenuOpen(false)}>BODEGAS</Link>
+                        <Link to={"/vinos"} onClick={() => setIsMenuOpen(false)}>VINOS</Link>
+                        <Link to={'/promos'} onClick={() => setIsMenuOpen(false)}>PROMOS</Link>
                     </div>
                     <Link to={"/cart"}>
                     <CartWidget/>
