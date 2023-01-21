@@ -4,20 +4,22 @@
   list-style: none;
   text-decoration: none;
 }
+
 body {
-  background-image: url("/images/PAG4Prueba.png");
+  background-image: url("/images/PAG4PruebaNegro.png");
   background-repeat: repeat;
   color: white;
   margin-top: 50px;
-  font-family: 'Noto Serif Toto', serif;
+  font-family: 'Times New Roman', Times, serif;
 }
+
 /* font-family: 'Noto Serif Toto', serif;
 font-family: 'Raleway', sans-serif; */
 
 
 /* -------------NAV-------------- */
 nav {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   display: flex;
   background-color: black;
   color: aliceblue;
@@ -87,31 +89,36 @@ nav {
   display: none;
 }
 
+
 /* -------------customannaucmetn-------------- */
-.bodegasPadre{
+.bodegasPadre {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
-.bodegasUl{
-  background-color: rgba(0, 0, 0, 0.589);
+
+.bodegasUl {
+  background-color: rgba(0, 0, 0, 0.253);
   border-radius: 15px;
   margin-bottom: 25px;
 }
+
 .bodegasUl li {
   margin: 15px;
 }
+
 /* -------------customannaucmetn-------------- */
 .anuncio {
   background-color: rgba(228, 228, 216, 0.589);
   padding: 10px;
   color: black;
 }
-.anuncio button{
-background-color: rgba(255, 255, 255, 0.164);
-border-radius: 15px;
+
+.anuncio button {
+  background-color: rgba(255, 255, 255, 0.164);
+  border-radius: 15px;
 
 }
 
@@ -130,6 +137,25 @@ border-radius: 15px;
   align-items: center;
 }
 
+.inicio {
+  display: block;
+  max-width: 100vw;
+  max-height: 100vh;
+  background-image: url("/images/PAG4PruebaNegro.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+/* .inicioBel {
+  position: absolute;
+  left: 50px;
+  top: 150px;
+  width: 350px;
+  height: 450px;
+  border-radius: 15px;
+  border: solid black;
+}
+ */
 .sobrenosInfo {
   display: flex;
   flex-direction: column;
@@ -137,11 +163,12 @@ border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.sobrenosInfo h1,
-h3,
+.sobrenosInfo h3,
 h5,
 p {
-  padding: 10px
+  padding: 10px;
+  color: white;
+  font-size: 1.2rem;
 }
 
 .column {
@@ -166,7 +193,7 @@ p {
   padding: 10px;
 }
 
-.containerCategory h3 {
+.containerCategory p {
   background-color: rgba(0, 0, 0, 0.507);
   border-radius: 15px;
 }
@@ -323,7 +350,7 @@ h4 {
 
 .cart-price-btn p {
   height: 50px;
-  font-family: 'Noto Serif Toto', serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 28px;
   font-weight: lighter;
   color: #474747;
@@ -331,7 +358,7 @@ h4 {
 
 span {
   height: 50px;
-  font-family: 'Noto Serif Toto', serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 34px;
 }
 
@@ -371,7 +398,7 @@ span {
   justify-content: space-around;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.637);
-
+  height: 100px;
 }
 
 .footerLink {
@@ -391,8 +418,8 @@ span {
 }
 
 .footerLogo img {
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   border-radius: 15%;
 }
 
@@ -504,7 +531,14 @@ span {
   color: #ffffff;
 }
 
-
+/* ----------Comentarios-------- */
+.containerComentarios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  height: 1250px;
+}
 
 @media (max-width: 768px) {
 

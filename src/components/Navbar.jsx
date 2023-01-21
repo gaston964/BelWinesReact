@@ -11,14 +11,16 @@ const Navbar = () => {
                 <div className="open">
                     <div className='logolink'>
                         <Link to={'/'}>
-                            <img src="/images/logobel2.png" alt="Logo" />
-                            BelWines
+                            <img src="/images/logobel4.png" alt="Logo" />
+                            BELWINES
                         </Link>
                     </div>
                     <div className="navLink">
-                        <Link to={'/promos'}>PROMOS</Link>
-                        <Link to={'/vinos'}>VINOS</Link>
+                        <Link to={'/'}>INICIO</Link>
                         <Link to={'/bodegas'}>BODEGAS</Link>
+                        <Link to={'/vinos'}>VINOS</Link>
+                        <Link to={'/promos'}>PROMOCIONES</Link>
+                        <Link to={'/comments'}>COMENTARIOS</Link>
                     </div>
                     <Link to={"/cart"}>
                     <CartWidget/>
@@ -30,7 +32,8 @@ const Navbar = () => {
                         <Link to={'/'} onClick={() => setIsMenuOpen(false)}>INICIO</Link>
                         <Link to={"/bodegas"} onClick={() => setIsMenuOpen(false)}>BODEGAS</Link>
                         <Link to={"/vinos"} onClick={() => setIsMenuOpen(false)}>VINOS</Link>
-                        <Link to={'/promos'} onClick={() => setIsMenuOpen(false)}>PROMOS</Link>
+                        <Link to={'/promos'} onClick={() => setIsMenuOpen(false)}>PROMOCIONES</Link>
+                        <Link to={'/promos'} onClick={() => setIsMenuOpen(false)}>COMENTARIOS</Link>
                     </div>
                     <Link to={"/cart"}>
                     <CartWidget/>

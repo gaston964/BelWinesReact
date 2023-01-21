@@ -23,10 +23,10 @@ const ItemListContainer = () => {
     return (
         <div className='containerVinos'>
             <div className="containerCategory">
-                <Link to={'/vinos/category/Tintos'}><h3>Tintos</h3></Link>
-                <Link to={'/vinos/category/Blancos'}><h3>Blancos</h3></Link>
-                <Link to={'/vinos/category/Rosados'}><h3>Rosados</h3></Link>
-                <Link to={'/vinos/category/Espumantes'}><h3>Espumantes</h3></Link>
+                <Link to={'/vinos/category/Tintos'}><p>TINTOS</p></Link>
+                <Link to={'/vinos/category/Blancos'}><p>BLANCOS</p></Link>
+                <Link to={'/vinos/category/Rosados'}><p>ROSADOS</p></Link>
+                <Link to={'/vinos/category/Espumantes'}><p>ESPUMANTES</p></Link>
             </div>
             <div className='itemContainer'>
                 {loading ? <Loader /> : items.map(i => <Item key={i.id} {...i}/>)}

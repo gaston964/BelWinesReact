@@ -1,6 +1,6 @@
 :root {
     --bg-color: #000;
-    --primary-color: #EBCE07
+    --primary-color: white
 }
 
 body {
@@ -10,6 +10,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: var(--bg-color);
+
 }
 
 .container {
@@ -23,10 +24,11 @@ body {
 }
 
 .title {
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     user-select: none;
     color: var(--primary-color);
+    width: 700px;
 }
 
 .row {
@@ -67,7 +69,9 @@ body {
     font-weight: bold;
     padding: 0 10px;
 }
-
+.inputbox label{
+    font-size: 1rem;
+}
 .inputbox input:focus,
 .inputbox input:valid {
     height: 100%;

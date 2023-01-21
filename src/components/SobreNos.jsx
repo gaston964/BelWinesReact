@@ -6,25 +6,23 @@ const SobreNos = () => {
     return (
         <>
             <div className="sobrenosContainer">
-                <CustomAnnouncement/>
+                <div className='inicio'>
+                    {/*  */}
+                </div>
+                <CustomAnnouncement />
                 <div className="sobrenosInfo">
-                    <h1>Bienvenidos a BelWines!</h1>
-                    <h3>Sobre mi...</h3>
-                    <p>Mi nombre es Belén Villarroel, soy Técnica en Turismo.</p>
+                    <h3>Mi nombre es Belen Villarroel Villarroel, fundadora de BelWines.</h3>
                     <p>
-                        Bel Wines es un emprendimiento que nació en Mayo 2020 ( pandemia ). El sector al que yo me dedico, fué muy afectado por la pandemia. Se presentó esta oportunidad en el sector vitivinícola, y no lo dudé ni un segundo.
-                        Comencé comprando 5 cajas y poniendo la tarjeta de crédito.
+                        BelWines es una Vinoteca Online ubicada en Mendoza, Argentina. El proyecto nació en Mayo 2020, buscando una salida laboral en plena pandemia. Los primeros clientes fueron amigos y conocidos. Luego de eso, el negocio comenzó a crecer y empezamos no solo a vender en Mendoza, sino que también a otras provincias.
+                        La idea del emprendimiento es ofrecer vinos de MENDOZA que no puedan encontrar en góndolas de supermercados
                     </p>
-                    <p> Mis primeros clientes fueron mis amigos y conocidos. Luego de eso,el negocio comenzó a moverse, me empezaron a contactar conocidos de mis amigos y así comenzó esta aventura.
-                        Comencé a promocionar por Facebook y empecé a recibir pedidos de otras provincias.</p>
-                    <p>Detrás de este negocio hay mucho esfuerzo y dedicación. Estoy involucrada con mi emprendimiento y con la satisfacción de mis clientes.</p>
-                    <p>La idea del emprendimiento es ofrecer vinos de MENDOZA que no puedan encontrar en góndolas de supermercado, vinos de bodegas boutique o menos conocidas. </p>
-                    <p>Hago envíos a todo el país, a través de Andesmar Cargas a domicilio o Andreani a sucursal. Demora aproximada 7 días hábiles. Los envíos sólo están incluídos en las promociones de la sección "PROMOS". De manera contraria pueden solicitarme cotización del envío vía Whatsapp, correo electrónico, DM en Instagram o Facebook.</p>
-                    <h3>Soy monotributista, hago factura "C".</h3>
+                    <p> Hacemos envíos a todo el país , a través de Andesmar Cargas o Andreani. La demora aproximada es de 7 días hábiles. El costo del envío es sin cargo para Gran Mendoza y para la sección “PROMOCIONES”</p>
+                    <h3>
+                        Hacemos factura “C”</h3>
                     <h2>LOS INVITO A CONOCERME</h2>
                 </div>
                 <div>
-                    <img src='\images\belbodega.jpg' alt="Image 1" />
+                    <img className='inicioBel' src='/images/belbodega.jpg' alt="Image 1" />
                 </div>
             </div>
         </>

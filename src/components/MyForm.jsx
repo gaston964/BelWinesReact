@@ -26,44 +26,44 @@ const MyForm = () => {
                 </div>
                 : 
             <form className="container" onSubmit={sendEmail}>
-                <h1 className="title">Formulario de Envío</h1>
+                <h1 className="title">FORMULARIO DE ENVÍO</h1>
                 <div className="row">
                     <div className="inputbox">
                         <input type="text" name='name' id="name" required />
-                        <label htmlFor="name">Nombre y Apellido</label>
-                    </div>
-                    <div className="inputbox">
-                        <input type="text" name='email' id="email" required />
-                        <label htmlFor="email">Email</label>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="inputbox">
-                        <input type="text" name='CP' id="cep" required />
-                        <label htmlFor="cep">Codigo Postal</label>
-                    </div>
-                    <div className="inputbox">
-                        <input type="text" name='adress' id="endereco" required />
-                        <label htmlFor="endereco">Dirección</label>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="inputbox">
-                        <input type="text" name='city' id="cidade" required />
-                        <label htmlFor="cidade">Ciudad</label>
+                        <label htmlFor="name">NOMBRE Y APELLIDO</label>
                     </div>
                     <div className="inputbox">
                         <input type="text" name='state' id="cidade" required />
-                        <label htmlFor="cidade">Departamento</label>
+                        <label htmlFor="cidade">DEPARTAMENTO</label>
+                    </div>
+                </div>
+                <div className="row">
+                <div className="inputbox">
+                        <input type="text" name='adress' id="endereco" required />
+                        <label htmlFor="endereco">DIRECCIÓN</label>
+                    </div>
+                    <div className="inputbox">
+                        <input type="text" name='city' id="cidade" required />
+                        <label htmlFor="cidade">CIUDAD</label>
+                    </div>
+                </div>
+                <div className="row">
+                <div className="inputbox">
+                        <input type="text" name='CP' id="cep" required />
+                        <label htmlFor="cep">CODIGO POSTAL</label>
+                    </div>
+                    <div className="inputbox">
+                        <input type="text" name='email' id="email" required />
+                        <label htmlFor="email">EMAIL</label>
                     </div>
                     <div className="inputbox">
                         <input type="text" name='phone' id="phone" required />
-                        <label htmlFor="phone">Número de celular</label>
+                        <label htmlFor="phone">NÚMERO DE CELULAR</label>
                     </div>
                 </div>
                 <div className="row">
                     <div className="labelCart">
-                        <label htmlFor="cart" className='title'>Carrito de compras:</label>
+                        <label htmlFor="cart" className='title'>CARRITO DE COMPRAS:</label>
                         <textarea name="cart" id='cart' className='textareaCart' value={cart.map(item => `${item.descripcion}, (${item.cantidad} x $${item.precio} = $${item.cantidad * item.precio}).\nTotal=$${getTotalPrice()}`).join(', ')} readOnly />
                     </div>
                 </div>

@@ -41,7 +41,7 @@
 
 .product-text h1,
 .product-price-btn p {
-    font-family: 'Noto Serif Toto', serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .product-text h2 {
@@ -99,7 +99,7 @@ span {
     box-sizing: border-box;
     border: transparent;
     border-radius: 60px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
