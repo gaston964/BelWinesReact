@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("/images/PAG4PruebaNegro.png");
+  background-image: url("https://drive.google.com/uc?export=view&id=1VuzhYEayvoCJJBtDqgrJXRxbNHDALIvT");
   background-repeat: repeat;
   color: white;
   margin-top: 50px;
@@ -398,7 +398,9 @@ span {
   justify-content: space-around;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.637);
-  height: 100px;
+  height: 180px;
+  position: relative;
+  bottom: 0;
 }
 
 .footerLink {

@@ -11,6 +11,7 @@ const Footer = () => {
                     <Link to={'/bodegas'}>BODEGAS</Link>
                     <Link to={'/vinos'}>VINOS</Link>
                     <Link to={'/promos'}>PROMOCIONES</Link>
+                    <Link to={'/comments'}>COMENTARIOS</Link>
                 </div>
                 <div className='footerRedes'>
                     <ul className='wrapperFooter'>
@@ -21,10 +22,9 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className='footerLogo'>
-                    <img src='\images\logobel4.png' alt="logobel" />
+                    <img src='https://drive.google.com/uc?export=view&id=1K0MB2jmS7PZNjWOD-gLOsQKaxkXkS2rP' alt="logobel" />
                 </div>
             </div>
-            <a href="mailto:"></a>
         </>
     )
 }

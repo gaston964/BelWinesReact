@@ -17,7 +17,7 @@ const ItemListContainer = () => {
             let data = await response.json();
             setItems(data.filter((item)=> (item.category === id || !id) && item.category !== "Promos"))
             setLoading(false)
-        }, 1000) // Resuelve la promesa en 1 segundo
+        }, 1500) // Resuelve la promesa en 1 segundo
     }
 
     return (

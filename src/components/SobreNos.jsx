@@ -22,7 +22,7 @@ const SobreNos = () => {
                     <h2>LOS INVITO A CONOCERME</h2>
                 </div>
                 <div>
-                    <img className='inicioBel' src='/images/belbodega.jpg' alt="Image 1" />
+                    <img className='inicioBel' src='https://drive.google.com/uc?export=view&id=1KbWjWbD-jNZJ-V4n9wcWw2jYkKWz8UD-' alt="Image 1" />
                 </div>
             </div>
         </>

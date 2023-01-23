@@ -11,7 +11,7 @@ const Navbar = () => {
                 <div className="open">
                     <div className='logolink'>
                         <Link to={'/'}>
-                            <img src="/images/logobel4.png" alt="Logo" />
+                            <img src="https://drive.google.com/uc?export=view&id=1K0MB2jmS7PZNjWOD-gLOsQKaxkXkS2rP" alt="Logo" />
                             BELWINES
                         </Link>
                     </div>
