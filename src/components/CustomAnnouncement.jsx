@@ -7,7 +7,7 @@ function CustomAnnouncement() {
         <div className='anuncio'>
             {visible && (
                 <span>
-                    CAJAS A PARTIR DE $3.200
+                    CAJAS A PARTIR DE $3.700
                     <button onClick={() => setVisible(false)}>X</button>
                 </span>
             )}

@@ -27,7 +27,7 @@
         "id": "T4",
         "nombre": "López Malbec",
         "descripcion": "Bodegas López- López Malbec. Caja por 6 unidades",
-        "precio": 5500,
+        "precio": 6300,
         "img": "https://drive.google.com/uc?export=view&id=1_nIHtkZq24Irso1TfWuLqb7QxEKwi-0m",
         "category": "Tintos"
     },
@@ -35,7 +35,7 @@
         "id": "T5",
         "nombre": "Vasco Viejo",
         "descripcion": "Bodegas López Vasco Viejo Edición Vintage Malbec. Caja por 6 unidades",
-        "precio": 4520,
+        "precio": 5200,
         "img": "https://drive.google.com/uc?export=view&id=1VA_BtLQnhaWMMR2-ig9rSpW1obxWuXw2",
         "category": "Tintos"
     },
@@ -43,7 +43,7 @@
         "id": "T6",
         "nombre": "Vasco Viejo Blend",
         "descripcion": "Bodegas López Vasco Viejo Blend de tintos.Caja por 6 unidades",
-        "precio": 3200,
+        "precio": 3680,
         "img": "https://drive.google.com/uc?export=view&id=1cZf8oEZIyYwa6RZDyRaGGERAyFOIL8yk",
         "category": "Tintos"
     },
@@ -66,17 +66,17 @@
     {
         "id": "T10",
         "nombre": "Melipal Malbec",
-        "descripcion": "https://drive.google.com/uc?export=view&id=1FMqJ_n4y8T8B2TmAno8g-60DBPvMe_c3",
+        "descripcion": "Melipal Malbec. Caja por 6 unidades",
         "precio": 6500,
-        "img": "/images/Melipal Malbec.jpeg",
+        "img": "https://drive.google.com/uc?export=view&id=1FMqJ_n4y8T8B2TmAno8g-60DBPvMe_c3",
         "category": "Tintos"
     },
     {
         "id": "T11",
         "nombre": "Mosquita Muerta Wines",
-        "descripcion": "https://drive.google.com/uc?export=view&id=11yNQVxVMU9Thb5UJjbgPQghz8bDTQHvA",
+        "descripcion": "Mosquita Muerta Wines. Caja por 6 unidades",
         "precio": 6050,
-        "img": "/images/Mosquita Muerta.jpg",
+        "img": "https://drive.google.com/uc?export=view&id=11yNQVxVMU9Thb5UJjbgPQghz8bDTQHvA",
         "category": "Tintos"
     },
     {
@@ -89,9 +89,17 @@
     },
     {
         "id": "T13",
+        "nombre": "Náufrago Malbec",
+        "descripcion": "Náufrago Malbec. Caja por 6 unidades",
+        "precio": 5040,
+        "img": "/images/Náufrago.jpeg",
+        "category": "Tintos"
+    },
+    {
+        "id": "T14",
         "nombre": "Richardi Fazio Menegazzo",
         "descripcion": "Richardi Fazio Menegazzo Línea Rime Malbec Varietal. Caja por 6 unidades",
-        "precio": 5040,
+        "precio": 4800,
         "img": "https://drive.google.com/uc?export=view&id=1dojXzy06qEyokJWfomMwBaaHfCYAGuu9",
         "category": "Tintos"
     },
@@ -107,7 +115,7 @@
         "id": "B2",
         "nombre": "Cosecha Tardía",
         "descripcion": "Jorge Rubio Finca Gabriel Jóvenes Cosecha Tardía. Caja por 6 unidades",
-        "precio": 7300,
+        "precio": 9392,
         "img": "https://drive.google.com/uc?export=view&id=1uD8qrotHscPLv6qbDst-j3ywq7ShLEez",
         "category": "Blancos"
     },
@@ -115,15 +123,31 @@
         "id": "B3",
         "nombre": "Vasco Viejo Blend de blancos",
         "descripcion": "Bodegas López Vasco Viejo Blend de blancos. Caja por 6 unidades",
-        "precio": 3200,
+        "precio": 3680,
         "img": "https://drive.google.com/uc?export=view&id=1vfhPCykNFZIrbYrAWjh-jC-7t_As6JSM",
+        "category": "Blancos"
+    },
+    {
+        "id": "B4",
+        "nombre": "Jorge Rubio Chardonnay",
+        "descripcion": "Jorge Rubio Finca Gabriel Jóvenes Chardonnay. Caja por 6 unidades",
+        "precio": 9392,
+        "img": "/images/Jorge Rubio.jpeg",
+        "category": "Blancos"
+    },
+    {
+        "id": "B5",
+        "nombre": "Aturdido",
+        "descripcion": "Aturdido Blanco Dulce. Caja por 6 unidades",
+        "precio": 5600,
+        "img": "/images/Aturidido.jpeg",
         "category": "Blancos"
     },
     {
         "id": "R1",
         "nombre": "Rosé Syrah",
         "descripcion": "Jorge Rubio- Finca Gabriel Jóvenes Rosé Syrah. Caja por 6 unidades",
-        "precio": 7300,
+        "precio": 9392,
         "img": "https://drive.google.com/uc?export=view&id=1P6ZtMVItlFtCvkJ5tegBdwuxfFcb2WC8",
         "category": "Rosados"
     },
@@ -141,7 +165,7 @@
         "descripcion": "Richardi Fazio Menegazzo Línea Canai Espumante Moulin Bleu Rosado Dulce. Caja por 6 unidades",
         "precio": 4600,
         "img": "/images/Richardi Fazio.jpg",
-        "category": "https://drive.google.com/uc?export=view&id=1Vw8BSq3ucDa7Fu0NRQuSSQ2Kr6_tjoTU"
+        "category": "https://drive.google.com/uc?export=view&id=1nA-hyv_ckLk-ygA_p3JDeJTGohldpqip"
     },
     {
         "id": "E2",
@@ -171,36 +195,36 @@
         "id": "P1",
         "nombre": "Promo N°1",
         "descripcion": "INCLUYE : 1 CAJA Bodegas López Vasco Viejo Edición Vintage Malbec. 1 CAJA Bodega Don Bosco Reserva Malbec. 1 CAJA Bodega Don Bosco Donde Manda Capitán Malbec",
-        "precio": 19000,
-        "img": "/images/bodega2.jpg",
+        "precio": 21000,
+        "img": "https://drive.google.com/uc?export=view&id=1_m3LSmuLVI8evzGZcg1-9QxqdZlGj_o1",
         "category": "Promos",
-        "cajas" : "3 Cajas"
+        "cajas": "3 Cajas"
     },
     {
         "id": "P2",
         "nombre": "Promo N°2",
         "descripcion": "INCLUYE : 1 CAJA Bodega Los Toneles Abrasado. Malbec. 1 CAJA Bodega Atilio Avena Línea Atilio Malbec. 1 CAJA Bodega Richardi Fazio Menegazzo Rime Varietal Malbec. 1 CAJA Bodega Don Bosco Otro Loco Más Malbec. CAJA REGALO : Vasco Viejo Edición Vintage Malbec",
-        "precio": 28000,
+        "precio": 30000,
         "img": "https://drive.google.com/uc?export=view&id=1hcWIBwQwe10CksIsRebRpQKy5O9rKrhT",
         "category": "Promos",
-        "cajas" : "5 Cajas"
+        "cajas": "5 Cajas"
     },
     {
         "id": "P3",
         "nombre": "Promo N°3",
         "descripcion": "INCLUYE : 1 CAJA Bodega Don Bosco Reserva Malbec. 1 CAJA Bodegas López. 1 CAJA Bodega RichardiFazio Menegazzo Rime Varietal. 1 CAJA ESPUMANTE Bodega Richardi Fazio Menegazzo Línea Moulin Bleu Extra Brut, Dulce o Rosado. CAJA REGALO: Vasco Viejo Edición Vintage Malbec. ",
-        "precio": 28000,
+        "precio": 30000,
         "img": "https://drive.google.com/uc?export=view&id=10WggiAnvdLgTJbOgwOCipMuGCVqqCM5Y",
         "category": "Promos",
-        "cajas" : "5 Cajas"
+        "cajas": "5 Cajas"
     },
     {
         "id": "P4",
         "nombre": "Promo N°4",
         "descripcion": "INCLUYE : 1 CAJA Bodega Los Toneles Abrasado Malbec. 1 CAJA Bodega Atilio Avena Línea Atilio Malbec. 1 CAJA Bodega Richardi Fazio Menegazzo Rime Varietal Malbec. 1 CAJA Bodega Don Bosco Otro Loco Más Malbec. CAJA REGALO : Vasco Viejo Edición Vintage Malbec",
-        "precio": 34500,
+        "precio": 29000,
         "img": "https://drive.google.com/uc?export=view&id=1cNyQFotTdqY4QuiNGbl5sOi5B2sHR8to",
         "category": "Promos",
-        "cajas" : "4 Cajas"
+        "cajas": "4 Cajas"
     }
 ]

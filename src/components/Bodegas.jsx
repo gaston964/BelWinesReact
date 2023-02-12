@@ -13,6 +13,7 @@ const Bodegas = () => {
                 <li>BODEGAS LÓPEZ</li>
                 <li>MOSQUITA MUERTA WINES</li>
                 <li>LOS TONELES</li>
+                <li>FINCA EL NEVADO</li>
             </ul>
             </div>
         </>
