@@ -7,9 +7,9 @@ const SobreNos = () => {
         <>
             <div className="sobrenosContainer">
                 <div className='inicio'>
-                    {/*  */}
-                </div>
                 <CustomAnnouncement />
+                
+                </div>
                 <div className="sobrenosInfo">
                     <h3>Mi nombre es Belen Villarroel Villarroel, fundadora de BelWines.</h3>
                     <p>

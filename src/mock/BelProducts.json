@@ -51,7 +51,7 @@
         "id": "T8",
         "nombre": "Don Bosco",
         "descripcion": "Don Bosco Reserva Malbec. Caja por 6 unidades",
-        "precio": 6400,
+        "precio": 6800,
         "img": "https://drive.google.com/uc?export=view&id=1sA5Gv-OSa-S05k6dE4LflJfZy4eIe5gT",
         "category": "Tintos"
     },
@@ -59,20 +59,12 @@
         "id": "T9",
         "nombre": "Otro Loco Más",
         "descripcion": "Don Bosco Otro Loco Más Malbec. Caja por 6 unidades",
-        "precio": 4900,
+        "precio": 5400,
         "img": "https://drive.google.com/uc?export=view&id=1s1RzPhWwBKp3b93k8d-P5-LisLQJCIrP",
         "category": "Tintos"
     },
     {
         "id": "T10",
-        "nombre": "Melipal Malbec",
-        "descripcion": "Melipal Malbec. Caja por 6 unidades",
-        "precio": 6500,
-        "img": "https://drive.google.com/uc?export=view&id=1FMqJ_n4y8T8B2TmAno8g-60DBPvMe_c3",
-        "category": "Tintos"
-    },
-    {
-        "id": "T11",
         "nombre": "Mosquita Muerta Wines",
         "descripcion": "Mosquita Muerta Wines. Caja por 6 unidades",
         "precio": 6050,
@@ -80,40 +72,56 @@
         "category": "Tintos"
     },
     {
-        "id": "T12",
+        "id": "T11",
         "nombre": "Richardi Fazio Menegazzo",
         "descripcion": "Richardi Fazio Menegazzo Linea Rimé Blend Alta Gama Malbec Cabernet Sauvignon. Caja por 6 unidades",
-        "precio": 6720,
+        "precio": 7920,
         "img": "https://drive.google.com/uc?export=view&id=18_xhAu0fw4rZKzhwBbDLZP30bk2GytNk",
         "category": "Tintos"
     },
     {
-        "id": "T13",
+        "id": "T12",
         "nombre": "Náufrago Malbec",
         "descripcion": "Náufrago Malbec. Caja por 6 unidades",
-        "precio": 5040,
+        "precio": 5200,
         "img": "/images/Náufrago.jpeg",
         "category": "Tintos"
     },
     {
-        "id": "T14",
+        "id": "T13",
         "nombre": "Richardi Fazio Menegazzo",
         "descripcion": "Richardi Fazio Menegazzo Línea Rime Malbec Varietal. Caja por 6 unidades",
-        "precio": 4800,
+        "precio": 6720,
         "img": "https://drive.google.com/uc?export=view&id=1dojXzy06qEyokJWfomMwBaaHfCYAGuu9",
+        "category": "Tintos"
+    },
+    {
+        "id": "T14",
+        "nombre": "El Gran Loco",
+        "descripcion": "Don Bosco - El Gran Loco. Caja por 6 unidades",
+        "precio": 7300,
+        "img": "/images/elgranloco.jpeg",
+        "category": "Tintos"
+    },
+    {
+        "id": "T15",
+        "nombre": "Aturdido Malbec",
+        "descripcion": "Aturdido Malbec. Caja por 6 unidades",
+        "precio": 6800,
+        "img": "/images/aturdido2.jpeg",
         "category": "Tintos"
     },
     {
         "id": "B1",
         "nombre": "Otro Loco Más Ice",
         "descripcion": "Don Bosco Otro Loco Más Ice. Caja por 6 unidades",
-        "precio": 4900,
+        "precio": 5400,
         "img": "https://drive.google.com/uc?export=view&id=1iPzYI_j0NvIvu8kAX3iduaQsobvdCyye",
         "category": "Blancos"
     },
     {
         "id": "B2",
-        "nombre": "Cosecha Tardía",
+        "nombre": "Jorge Rubio Cosecha Tardía",
         "descripcion": "Jorge Rubio Finca Gabriel Jóvenes Cosecha Tardía. Caja por 6 unidades",
         "precio": 9392,
         "img": "https://drive.google.com/uc?export=view&id=1uD8qrotHscPLv6qbDst-j3ywq7ShLEez",
@@ -137,9 +145,17 @@
     },
     {
         "id": "B5",
+        "nombre": "Náufrago Blanco Dulce Chenin",
+        "descripcion": "Náufrago Blanco Dulce Chenin. Caja por 6 unidades",
+        "precio": 5800,
+        "img": "/images/naufrago.jpeg",
+        "category": "Blancos"
+    },
+    {
+        "id": "B5",
         "nombre": "Aturdido",
         "descripcion": "Aturdido Blanco Dulce. Caja por 6 unidades",
-        "precio": 5600,
+        "precio": 5800,
         "img": "/images/Aturidido.jpeg",
         "category": "Blancos"
     },
@@ -160,18 +176,10 @@
         "category": "Rosados"
     },
     {
-        "id": "E1",
-        "nombre": "Moulin Bleu Rosado Dulce",
-        "descripcion": "Richardi Fazio Menegazzo Línea Canai Espumante Moulin Bleu Rosado Dulce. Caja por 6 unidades",
-        "precio": 4600,
-        "img": "/images/Richardi Fazio.jpg",
-        "category": "https://drive.google.com/uc?export=view&id=1nA-hyv_ckLk-ygA_p3JDeJTGohldpqip"
-    },
-    {
         "id": "E2",
         "nombre": "Moulin Bleu Extra Dulce",
         "descripcion": "Richardi Fazio Menegazzo Línea Canai Espumante Moulin Bleu Extra Dulce. Caja por 6 unidades",
-        "precio": 4600,
+        "precio": 5900,
         "img": "https://drive.google.com/uc?export=view&id=1H-jRnRXWkvqSRnaVxCrEgCcvcze-fcxy",
         "category": "Espumantes"
     },
@@ -179,7 +187,7 @@
         "id": "E3",
         "nombre": "Moulin Bleu Extra Brut",
         "descripcion": "Richardi Fazio Menegazzo Línea Canai Espumante Moulin Bleu Extra Brut. Caja por 6 unidades",
-        "precio": 4600,
+        "precio": 5900,
         "img": "https://drive.google.com/uc?export=view&id=12aEVbcFF_YW9w096YfEJB_J_4QZRaK_p",
         "category": "Espumantes"
     },
@@ -187,7 +195,7 @@
         "id": "E4",
         "nombre": "Moulin Bleu Rosado",
         "descripcion": "Richardi Fazio Menegazzo Línea Canai Espumante Moulin Bleu Rosado Dulce. Caja por 6 unidades",
-        "precio": 4600,
+        "precio": 5900,
         "img": "https://drive.google.com/uc?export=view&id=1nA-hyv_ckLk-ygA_p3JDeJTGohldpqip",
         "category": "Espumantes"
     },
@@ -204,7 +212,7 @@
         "id": "P2",
         "nombre": "Promo N°2",
         "descripcion": "INCLUYE : 1 CAJA Bodega Los Toneles Abrasado. Malbec. 1 CAJA Bodega Atilio Avena Línea Atilio Malbec. 1 CAJA Bodega Richardi Fazio Menegazzo Rime Varietal Malbec. 1 CAJA Bodega Don Bosco Otro Loco Más Malbec. CAJA REGALO : Vasco Viejo Edición Vintage Malbec",
-        "precio": 30000,
+        "precio": 31500,
         "img": "https://drive.google.com/uc?export=view&id=1hcWIBwQwe10CksIsRebRpQKy5O9rKrhT",
         "category": "Promos",
         "cajas": "5 Cajas"
@@ -213,7 +221,7 @@
         "id": "P3",
         "nombre": "Promo N°3",
         "descripcion": "INCLUYE : 1 CAJA Bodega Don Bosco Reserva Malbec. 1 CAJA Bodegas López. 1 CAJA Bodega RichardiFazio Menegazzo Rime Varietal. 1 CAJA ESPUMANTE Bodega Richardi Fazio Menegazzo Línea Moulin Bleu Extra Brut, Dulce o Rosado. CAJA REGALO: Vasco Viejo Edición Vintage Malbec. ",
-        "precio": 30000,
+        "precio": 34000,
         "img": "https://drive.google.com/uc?export=view&id=10WggiAnvdLgTJbOgwOCipMuGCVqqCM5Y",
         "category": "Promos",
         "cajas": "5 Cajas"
@@ -221,9 +229,9 @@
     {
         "id": "P4",
         "nombre": "Promo N°4",
-        "descripcion": "INCLUYE : 1 CAJA Bodega Los Toneles Abrasado Malbec. 1 CAJA Bodega Atilio Avena Línea Atilio Malbec. 1 CAJA Bodega Richardi Fazio Menegazzo Rime Varietal Malbec. 1 CAJA Bodega Don Bosco Otro Loco Más Malbec. CAJA REGALO : Vasco Viejo Edición Vintage Malbec",
-        "precio": 29000,
-        "img": "https://drive.google.com/uc?export=view&id=1cNyQFotTdqY4QuiNGbl5sOi5B2sHR8to",
+        "descripcion": "INCLUYE : 1 CAJA Náufrago Malbec. 1 CAJA Náufrago Blanco Dulce Chenin. 1 CAJA Aturdido Malbec. 1 CAJA Aturdido Blanco Dulce.",
+        "precio": 24000,
+        "img": "/images/promo4.jpeg",
         "category": "Promos",
         "cajas": "4 Cajas"
     }

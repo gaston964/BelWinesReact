@@ -666,16 +666,31 @@ span {
 
 @media (max-width: 758px) {
   .itemContainer {
-    margin: 100px;
+    margin: 0px;
+    margin-bottom: 15px;
   }
 
   .wrapper {
-    margin: 105px;
+    margin: 0px;
+    
   }
 
   .card {
     height: 500px;
     margin-bottom: 25px;
     margin-top: 20px;
+  }
+  .footer {
+    height: 350px;
+    position: relative;
+    bottom: 0;
+    top: 0;
+  }
+  .footerRedes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
   }
 }
