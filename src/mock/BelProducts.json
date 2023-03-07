@@ -27,7 +27,7 @@
         "id": "T4",
         "nombre": "López Malbec",
         "descripcion": "Bodegas López- López Malbec. Caja por 6 unidades",
-        "precio": 6300,
+        "precio": 7300,
         "img": "https://drive.google.com/uc?export=view&id=1_nIHtkZq24Irso1TfWuLqb7QxEKwi-0m",
         "category": "Tintos"
     },
@@ -43,7 +43,7 @@
         "id": "T6",
         "nombre": "Vasco Viejo Blend",
         "descripcion": "Bodegas López Vasco Viejo Blend de tintos.Caja por 6 unidades",
-        "precio": 3680,
+        "precio": 4300,
         "img": "https://drive.google.com/uc?export=view&id=1cZf8oEZIyYwa6RZDyRaGGERAyFOIL8yk",
         "category": "Tintos"
     },
@@ -51,7 +51,7 @@
         "id": "T8",
         "nombre": "Don Bosco",
         "descripcion": "Don Bosco Reserva Malbec. Caja por 6 unidades",
-        "precio": 6800,
+        "precio": 7800,
         "img": "https://drive.google.com/uc?export=view&id=1sA5Gv-OSa-S05k6dE4LflJfZy4eIe5gT",
         "category": "Tintos"
     },
@@ -59,7 +59,7 @@
         "id": "T9",
         "nombre": "Otro Loco Más",
         "descripcion": "Don Bosco Otro Loco Más Malbec. Caja por 6 unidades",
-        "precio": 5400,
+        "precio": 5980,
         "img": "https://drive.google.com/uc?export=view&id=1s1RzPhWwBKp3b93k8d-P5-LisLQJCIrP",
         "category": "Tintos"
     },
@@ -99,7 +99,7 @@
         "id": "T14",
         "nombre": "El Gran Loco",
         "descripcion": "Don Bosco - El Gran Loco. Caja por 6 unidades",
-        "precio": 7300,
+        "precio": 8300,
         "img": "/images/elgranloco.jpeg",
         "category": "Tintos"
     },
@@ -115,7 +115,7 @@
         "id": "B1",
         "nombre": "Otro Loco Más Ice",
         "descripcion": "Don Bosco Otro Loco Más Ice. Caja por 6 unidades",
-        "precio": 5400,
+        "precio": 5980,
         "img": "https://drive.google.com/uc?export=view&id=1iPzYI_j0NvIvu8kAX3iduaQsobvdCyye",
         "category": "Blancos"
     },
@@ -131,7 +131,7 @@
         "id": "B3",
         "nombre": "Vasco Viejo Blend de blancos",
         "descripcion": "Bodegas López Vasco Viejo Blend de blancos. Caja por 6 unidades",
-        "precio": 3680,
+        "precio": 4300,
         "img": "https://drive.google.com/uc?export=view&id=1vfhPCykNFZIrbYrAWjh-jC-7t_As6JSM",
         "category": "Blancos"
     },

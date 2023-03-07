@@ -119,11 +119,9 @@ span {
     .wrapper {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        min-height: 100vh;
+        height: 100%;
         max-width: 350px;
-        margin-top: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         margin-left: 65px;
         border-radius: 7px 7px 7px 7px;
     }
