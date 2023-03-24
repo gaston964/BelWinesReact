@@ -112,6 +112,22 @@
         "category": "Tintos"
     },
     {
+        "id": "T16",
+        "nombre": "Mirá la Copa Bobo",
+        "descripcion": "Mirá la Copa Bobo Malbec 2021. Caja por 6 unidades",
+        "precio": 7200,
+        "img": "/images/copabobo.jpeg",
+        "category": "Tintos"
+    },
+    {
+        "id": "T17",
+        "nombre": "Sacando del Medio",
+        "descripcion": "Sacando del Medio Malbec 2019. Caja por 6 unidades",
+        "precio": 7200,
+        "img": "/images/mediomalbec.jpeg",
+        "category": "Tintos"
+    },
+    {
         "id": "B1",
         "nombre": "Otro Loco Más Ice",
         "descripcion": "Don Bosco Otro Loco Más Ice. Caja por 6 unidades",
@@ -123,7 +139,7 @@
         "id": "B2",
         "nombre": "Jorge Rubio Cosecha Tardía",
         "descripcion": "Jorge Rubio Finca Gabriel Jóvenes Cosecha Tardía. Caja por 6 unidades",
-        "precio": 9392,
+        "precio": 9900,
         "img": "https://drive.google.com/uc?export=view&id=1uD8qrotHscPLv6qbDst-j3ywq7ShLEez",
         "category": "Blancos"
     },
@@ -139,7 +155,7 @@
         "id": "B4",
         "nombre": "Jorge Rubio Chardonnay",
         "descripcion": "Jorge Rubio Finca Gabriel Jóvenes Chardonnay. Caja por 6 unidades",
-        "precio": 9392,
+        "precio": 9900,
         "img": "/images/Jorge Rubio.jpeg",
         "category": "Blancos"
     },
@@ -163,7 +179,7 @@
         "id": "R1",
         "nombre": "Rosé Syrah",
         "descripcion": "Jorge Rubio- Finca Gabriel Jóvenes Rosé Syrah. Caja por 6 unidades",
-        "precio": 9392,
+        "precio": 9900,
         "img": "https://drive.google.com/uc?export=view&id=1P6ZtMVItlFtCvkJ5tegBdwuxfFcb2WC8",
         "category": "Rosados"
     },
